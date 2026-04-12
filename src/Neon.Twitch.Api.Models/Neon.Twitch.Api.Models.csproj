@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Auth\" />
+      <Folder Include="Helix\CCL\" />
+      <Folder Include="Helix\Chat\Badges\" />
+      <Folder Include="Helix\Clips\" />
+      <Folder Include="Helix\Conduits\" />
+      <Folder Include="Helix\Entitlements\" />
+      <Folder Include="Helix\EventSub\" />
+      <Folder Include="Helix\Games\" />
+      <Folder Include="Helix\Goals\" />
+      <Folder Include="Helix\GuestStar\" />
+      <Folder Include="Helix\HypeTrain\" />
+      <Folder Include="Helix\Moderation\" />
+      <Folder Include="Helix\Polls\" />
+      <Folder Include="Helix\Predictions\" />
+      <Folder Include="Helix\Raids\" />
+      <Folder Include="Helix\Schedule\" />
+      <Folder Include="Helix\Search\" />
+      <Folder Include="Helix\Streams\" />
+      <Folder Include="Helix\Subscriptions\" />
+      <Folder Include="Helix\Tags\" />
+      <Folder Include="Helix\Teams\" />
+      <Folder Include="Helix\Users\" />
+      <Folder Include="Helix\Videos\" />
+      <Folder Include="Helix\Whispers\" />
+    </ItemGroup>
+
+</Project>
