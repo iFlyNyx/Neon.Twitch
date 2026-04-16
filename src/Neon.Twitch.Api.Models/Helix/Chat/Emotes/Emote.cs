@@ -15,12 +15,6 @@ public abstract class Emote
     [JsonPropertyName("name")]
     public string? Name { get; set; }
     /// <summary>
-    /// <para>The image URLs for the emote. These image URLs always provide a static, non-animated emote image with a light background.</para>
-    /// <para>NOTE: You should use the templated URL in the template field to fetch the image instead of using these URLs.</para>
-    /// </summary>
-    [JsonPropertyName("images")]
-    public Image? Images { get; set; }
-    /// <summary>
     /// <para>The formats that the emote is available in. For example, if the emote is available only as a static PNG, the array contains only static. But if the emote is available as a static PNG and an animated GIF, the array contains static and animated. The possible formats are:</para>
     /// <para>animated | static</para>
     /// </summary>
@@ -34,7 +28,7 @@ public abstract class Emote
     public List<string>? Scales { get; set; }
     /// <summary>
     /// <para>The background themes that the emote is available in. Possible themes are:</para>
-    /// <para>dark|light</para>
+    /// <para>dark | light</para>
     /// </summary>
     [JsonPropertyName("theme_mode")]
     public List<string>? Themes { get; set; }

@@ -8,16 +8,6 @@
 
     <ItemGroup>
       <Folder Include="Auth\" />
-      <Folder Include="Helix\CCL\" />
-      <Folder Include="Helix\Chat\Badges\" />
-      <Folder Include="Helix\Clips\" />
-      <Folder Include="Helix\Conduits\" />
-      <Folder Include="Helix\Entitlements\" />
-      <Folder Include="Helix\EventSub\" />
-      <Folder Include="Helix\Games\" />
-      <Folder Include="Helix\Goals\" />
-      <Folder Include="Helix\GuestStar\" />
-      <Folder Include="Helix\HypeTrain\" />
       <Folder Include="Helix\Moderation\" />
       <Folder Include="Helix\Polls\" />
       <Folder Include="Helix\Predictions\" />
@@ -30,7 +20,6 @@
       <Folder Include="Helix\Teams\" />
       <Folder Include="Helix\Users\" />
       <Folder Include="Helix\Videos\" />
-      <Folder Include="Helix\Whispers\" />
     </ItemGroup>
 
 </Project>
