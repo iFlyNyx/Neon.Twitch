@@ -8,10 +8,10 @@ public class Video
     /// <para>An ID that identifies this video.</para>
     /// </summary>
     [JsonPropertyName("video_id")]
-    public string? VideoId { get; set; }
+    public string? VideoId { get; init; }
     /// <summary>
     /// <para>The list of markers in this video. The list in ascending order by when the marker was created.</para>
     /// </summary>
     [JsonPropertyName("markers")]
-    public List<Marker>? Markers { get; set; }
+    public List<Marker>? Markers { get; init; }
 }

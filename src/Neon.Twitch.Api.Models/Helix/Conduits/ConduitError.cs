@@ -8,7 +8,7 @@ public class ConduitError
     /// <para>Shard ID.</para>
     /// </summary>
     [JsonPropertyName("id")]
-    public string? Id { get; set; }
+    public string? Id { get; init; }
     /// <summary>
     /// <para>The error that occurred while updating the shard. Possible errors:</para>
     /// <para>The length of the string in the secret field is not valid.</para>
@@ -20,10 +20,10 @@ public class ConduitError
     /// <para>The shard id is outside of the conduit’s range.</para>
     /// </summary>
     [JsonPropertyName("message")]
-    public string? Message { get; set; }
+    public string? Message { get; init; }
     /// <summary>
     /// <para>Error codes used to represent a specific error condition while attempting to update shards.</para>
     /// </summary>
     [JsonPropertyName("code")]
-    public string? Code { get; set; }
+    public string? Code { get; init; }
 }

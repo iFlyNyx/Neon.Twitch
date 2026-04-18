@@ -9,25 +9,25 @@ public class Transport
     /// <para>webhook | websocket</para>
     /// </summary>
     [JsonPropertyName("method")]
-    public string? Method { get; set; }
+    public string? Method { get; init; }
     /// <summary>
     /// <para>The callback URL where the notifications are sent. Included only if method is set to webhook.</para>
     /// </summary>
     [JsonPropertyName("callback")]
-    public string? Callback { get; set; }
+    public string? Callback { get; init; }
     /// <summary>
     /// <para>An ID that identifies the WebSocket that notifications are sent to. Included only if method is set to websocket.</para>
     /// </summary>
     [JsonPropertyName("session_id")]
-    public string? SessionId { get; set; }
+    public string? SessionId { get; init; }
     /// <summary>
     /// <para>The UTC date and time that the WebSocket connection was established. Included only if method is set to websocket.</para>
     /// </summary>
     [JsonPropertyName("connected_at")]
-    public string? ConnectedAt { get; set; }
+    public string? ConnectedAt { get; init; }
     /// <summary>
     /// <para>The UTC date and time that the WebSocket connection was lost. Included only if method is set to websocket.</para>
     /// </summary>
     [JsonPropertyName("disconnected_at")]
-    public string? DisconnectedAt { get; set; }
+    public string? DisconnectedAt { get; init; }
 }

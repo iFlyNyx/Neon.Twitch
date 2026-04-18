@@ -8,25 +8,25 @@ public class BitLeaderboardUser
     /// <para>An ID that identifies a user on the leaderboard.</para>
     /// </summary>
     [JsonPropertyName("user_id")]
-    public string? UserId { get; set; }
+    public string? UserId { get; init; }
     /// <summary>
     /// <para>The user’s login name.</para>
     /// </summary>
     [JsonPropertyName("user_login")]
-    public string? UserLogin { get; set; }
+    public string? UserLogin { get; init; }
     /// <summary>
     /// <para>The user’s display name.</para>
     /// </summary>
     [JsonPropertyName("user_name")]
-    public string? UserName { get; set; }
+    public string? UserName { get; init; }
     /// <summary>
     /// <para>The user’s position on the leaderboard.</para>
     /// </summary>
     [JsonPropertyName("rank")]
-    public int? Rank { get; set; }
+    public int? Rank { get; init; }
     /// <summary>
     /// <para>The number of Bits the user has cheered.</para>
     /// </summary>
     [JsonPropertyName("score")]
-    public int? Score { get; set; }
+    public int? Score { get; init; }
 }

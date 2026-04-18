@@ -8,5 +8,5 @@ public class GetCreatorGoalsResponse
     /// <para>The list of goals. The list is empty if the broadcaster hasn’t created goals.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<CreatorGoal>? Data { get; set; }
+    public List<CreatorGoal>? Data { get; init; }
 }

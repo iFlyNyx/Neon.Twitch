@@ -8,15 +8,15 @@ public class User
     /// <para>The ID of the user that has permission to moderate the broadcaster’s channel.</para>
     /// </summary>
     [JsonPropertyName("user_id")]
-    private string? UserId { get; set; }
+    private string? UserId { get; init; }
     /// <summary>
     /// <para>The user’s login name.</para>
     /// </summary>
     [JsonPropertyName("user_login")]
-    public string? UserLogin { get; set; }
+    public string? UserLogin { get; init; }
     /// <summary>
     /// <para>The user’s display name.</para>
     /// </summary>
     [JsonPropertyName("user_name")]
-    public string? UserName { get; set; }
+    public string? UserName { get; init; }
 }

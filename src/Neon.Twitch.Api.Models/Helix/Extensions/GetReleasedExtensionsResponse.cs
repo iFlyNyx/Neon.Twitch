@@ -8,5 +8,5 @@ public class GetReleasedExtensionsResponse
     /// <para>A list that contains the specified extension.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<Extension>? Data { get; set; }
+    public List<Extension>? Data { get; init; }
 }

@@ -8,5 +8,5 @@ public class GetClipDownloadsResponse
     /// <para>List of clips and their download URLs.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<ClipDownload>? Data { get; set; }
+    public List<ClipDownload>? Data { get; init; }
 }

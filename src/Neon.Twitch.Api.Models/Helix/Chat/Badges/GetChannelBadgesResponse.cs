@@ -8,5 +8,5 @@ public class GetChannelBadgesResponse
     /// <para>The list of chat badges. The list is sorted in ascending order by set_id, and within a set, the list is sorted in ascending order by id.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<ChannelBadge>? Data { get; set; }
+    public List<ChannelBadge>? Data { get; init; }
 }

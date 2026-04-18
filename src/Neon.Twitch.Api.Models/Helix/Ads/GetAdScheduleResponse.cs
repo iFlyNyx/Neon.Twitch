@@ -8,5 +8,5 @@ public class GetAdScheduleResponse
     /// <para>A list that contains information related to the channel’s ad schedule.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<GetAdSchedule>? Data { get; set; }
+    public List<GetAdSchedule>? Data { get; init; }
 }

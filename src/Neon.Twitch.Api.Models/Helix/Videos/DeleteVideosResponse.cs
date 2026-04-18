@@ -8,5 +8,5 @@ public class DeleteVideosResponse
     /// <para>The list of IDs of the videos that were deleted.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<string>? Data { get; set; }
+    public List<string>? Data { get; init; }
 }

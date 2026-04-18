@@ -8,5 +8,5 @@ public class StartCommercialResponse
     /// <para>An array that contains a single object with the status of your start commercial request.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<StartCommercial>? Data { get; set; }
+    public List<StartCommercial>? Data { get; init; }
 }

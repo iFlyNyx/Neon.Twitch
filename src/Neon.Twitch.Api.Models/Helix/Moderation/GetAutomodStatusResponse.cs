@@ -8,5 +8,5 @@ public class GetAutomodStatusResponse
     /// <para>The list of messages and whether Twitch would approve them for chat.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<AutomodStatus>? Data { get; set; }
+    public List<AutomodStatus>? Data { get; init; }
 }

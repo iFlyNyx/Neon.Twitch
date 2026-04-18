@@ -8,15 +8,15 @@ public class Chatter
     /// <para>The ID of a user that’s connected to the broadcaster’s chat room.</para>
     /// </summary>
     [JsonPropertyName("user_id")]
-    public string? UserId { get; set; }
+    public string? UserId { get; init; }
     /// <summary>
     /// <para>The user’s login name.</para>
     /// </summary>
     [JsonPropertyName("user_login")]
-    public string? UserLogin { get; set; }
+    public string? UserLogin { get; init; }
     /// <summary>
     /// <para>The user’s display name.</para>
     /// </summary>
     [JsonPropertyName("user_name")]
-    public string? UserName { get; set; }
+    public string? UserName { get; init; }
 }

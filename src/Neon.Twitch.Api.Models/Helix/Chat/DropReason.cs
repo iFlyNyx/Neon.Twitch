@@ -8,10 +8,10 @@ public class DropReason
     /// <para>Code for why the message was dropped.</para>
     /// </summary>
     [JsonPropertyName("code")]
-    public string? Code { get; set; }
+    public string? Code { get; init; }
     /// <summary>
     /// <para>Message for why the message was dropped.</para>
     /// </summary>
     [JsonPropertyName("message")]
-    public string? Message { get; set; }
+    public string? Message { get; init; }
 }

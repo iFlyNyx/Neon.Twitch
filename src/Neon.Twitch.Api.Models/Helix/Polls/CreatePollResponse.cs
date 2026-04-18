@@ -8,5 +8,5 @@ public class CreatePollResponse
     /// <para>A list that contains the single poll that you created.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<Poll>? Data { get; set; }
+    public List<Poll>? Data { get; init; }
 }

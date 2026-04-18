@@ -8,5 +8,5 @@ public class UpdateDropEntitlementStatusResponse
     /// <para>A list that indicates which entitlements were successfully updated and those that weren’t.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<DropEntitlementStatus>? Data { get; set; }
+    public List<DropEntitlementStatus>? Data { get; init; }
 }

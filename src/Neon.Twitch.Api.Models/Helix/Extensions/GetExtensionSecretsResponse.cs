@@ -8,5 +8,5 @@ public class GetExtensionSecretsResponse
     /// <para>The list of shared secrets that the extension created.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<ExtensionSecret>? Data { get; set; }
+    public List<ExtensionSecret>? Data { get; init; }
 }

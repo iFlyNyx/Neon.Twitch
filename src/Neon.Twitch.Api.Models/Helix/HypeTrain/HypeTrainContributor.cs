@@ -8,17 +8,17 @@ public class HypeTrainContributor
     /// <para>The ID of the user that made the contribution.</para>
     /// </summary>
     [JsonPropertyName("user_id")]
-    public string? UserId { get; set; }
+    public string? UserId { get; init; }
     /// <summary>
     /// <para>The user’s login name.</para>
     /// </summary>
     [JsonPropertyName("user_login")]
-    public string? UserLogin { get; set; }
+    public string? UserLogin { get; init; }
     /// <summary>
     /// <para>The user’s display name.</para>
     /// </summary>
     [JsonPropertyName("user_name")]
-    public string? UserName { get; set; }
+    public string? UserName { get; init; }
     /// <summary>
     /// <para>The contribution method used. Possible values are: </para>
     /// <para>bits - Cheering with Bits. </para>
@@ -26,10 +26,10 @@ public class HypeTrainContributor
     /// <para>other - Covers other contribution methods not listed.</para>
     /// </summary>
     [JsonPropertyName("type")]
-    public string? Type { get; set; }
+    public string? Type { get; init; }
     /// <summary>
     /// <para>The total number of points contributed for the type.</para>
     /// </summary>
     [JsonPropertyName("total")]
-    public int? Total { get; set; }
+    public int? Total { get; init; }
 }

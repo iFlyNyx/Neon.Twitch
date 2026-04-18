@@ -8,15 +8,15 @@ public class ModeratedChannel
     /// <para>An ID that uniquely identifies the channel this user can moderate.</para>
     /// </summary>
     [JsonPropertyName("broadcaster_id")]
-    public string? BroadcasterId { get; set; }
+    public string? BroadcasterId { get; init; }
     /// <summary>
     /// <para>The channel’s login name.</para>
     /// </summary>
     [JsonPropertyName("broadcaster_login")]
-    public string? BroadcasterLogin { get; set; }
+    public string? BroadcasterLogin { get; init; }
     /// <summary>
     /// <para>The channels’ display name.</para>
     /// </summary>
     [JsonPropertyName("broadcaster_name")]
-    public string? BroadcasterName { get; set; }
+    public string? BroadcasterName { get; init; }
 }

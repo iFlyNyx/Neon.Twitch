@@ -8,15 +8,15 @@ public class Secret
     /// <para>The raw secret that you use with JWT encoding.</para>
     /// </summary>
     [JsonPropertyName("content")]
-    public string? Content { get; set; }
+    public string? Content { get; init; }
     /// <summary>
     /// <para>The UTC date and time (in RFC3339 format) that you may begin using this secret to sign a JWT.</para>
     /// </summary>
     [JsonPropertyName("active_at")]
-    public string? ActiveAt { get; set; }
+    public string? ActiveAt { get; init; }
     /// <summary>
     /// <para>The UTC date and time (in RFC3339 format) that you must stop using this secret to decode a JWT.</para>
     /// </summary>
     [JsonPropertyName("expires_at")]
-    public string? ExpiresAt { get; set; }
+    public string? ExpiresAt { get; init; }
 }

@@ -8,5 +8,5 @@ public class GetGuestStarInviteResponse
     /// <para>A list of invite objects describing the invited user as well as their ready status.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<GuestStarInvite>? Data { get; set; }
+    public List<GuestStarInvite>? Data { get; init; }
 }

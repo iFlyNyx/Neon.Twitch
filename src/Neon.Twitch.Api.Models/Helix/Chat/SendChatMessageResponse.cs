@@ -8,5 +8,5 @@ public class SendChatMessageResponse
     /// <para>Details about a sent chat message</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<SentChatMessage>? Data { get; set; }
+    public List<SentChatMessage>? Data { get; init; }
 }

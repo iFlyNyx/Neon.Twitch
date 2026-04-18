@@ -8,5 +8,5 @@ public class GetGamesResponse
     /// <para>The list of categories and games. The list is empty if the specified categories and games weren’t found.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<Game>? Data { get; set; }
+    public List<Game>? Data { get; init; }
 }

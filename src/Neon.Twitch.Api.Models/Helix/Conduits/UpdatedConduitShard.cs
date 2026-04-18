@@ -8,5 +8,5 @@ public class UpdatedConduitShard : ConduitShard
     /// <para>List of unsuccessful updates.</para>
     /// </summary>
     [JsonPropertyName("errors")]
-    public List<ConduitError>? Errors { get; set; }
+    public List<ConduitError>? Errors { get; init; }
 }

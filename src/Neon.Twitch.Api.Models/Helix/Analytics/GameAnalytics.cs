@@ -9,20 +9,20 @@ public class GameAnalytics
     /// <para>An ID that identifies the game that the report was generated for.</para>
     /// </summary>
     [JsonPropertyName("game_id")]
-    public string? GameId { get; set; }
+    public string? GameId { get; init; }
     /// <summary>
     /// <para>The URL that you use to download the report. The URL is valid for 5 minutes.</para>
     /// </summary>
     [JsonPropertyName("URL")]
-    public string? Url  { get; set; }
+    public string? Url  { get; init; }
     /// <summary>
     /// <para>The type of report.</para>
     /// </summary>
     [JsonPropertyName("type")]
-    public string? Type { get; set; }
+    public string? Type { get; init; }
     /// <summary>
     /// <para>The reporting window’s start and end dates, in RFC3339 format.</para>
     /// </summary>
     [JsonPropertyName("date_range")]
-    public DateRange? DateRange { get; set; }
+    public DateRange? DateRange { get; init; }
 }

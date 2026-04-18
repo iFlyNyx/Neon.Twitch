@@ -8,5 +8,5 @@ public class GetUserActiveExtensionsResponse
     /// <para>The active extensions that the broadcaster has installed.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<UserActiveExtension>? Data { get; set; }
+    public List<UserActiveExtension>? Data { get; init; }
 }

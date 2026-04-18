@@ -8,7 +8,7 @@ public abstract class ConduitShard
     /// <para>Shard ID.</para>
     /// </summary>
     [JsonPropertyName("id")]
-    public string? Id { get; set; }
+    public string? Id { get; init; }
     /// <summary>
     /// <para>The shard status. The subscriber receives events only for enabled shards. Possible values are:</para>
     /// <para>enabled — The shard is enabled.</para>
@@ -24,10 +24,10 @@ public abstract class ConduitShard
     /// <para>websocket_failed_to_reconnect - The client failed to reconnect to the Twitch WebSocket server within the required time after a Reconnect Message.</para>
     /// </summary>
     [JsonPropertyName("status")]
-    public string? Status { get; set; }
+    public string? Status { get; init; }
     /// <summary>
     /// <para>The transport details used to send the notifications.</para>
     /// </summary>
     [JsonPropertyName("transport")]
-    public Transport? Transport { get; set; }
+    public Transport? Transport { get; init; }
 }

@@ -8,20 +8,20 @@ public class UserChatColor
     /// <para>An ID that uniquely identifies the user.</para>
     /// </summary>
     [JsonPropertyName("user_id")]
-    public string? UserId { get; set; }
+    public string? UserId { get; init; }
     /// <summary>
     /// <para>The user’s login name.</para>
     /// </summary>
     [JsonPropertyName("user_login")]
-    public string? UserLogin { get; set; }
+    public string? UserLogin { get; init; }
     /// <summary>
     /// <para>The user’s display name.</para>
     /// </summary>
     [JsonPropertyName("user_name")]
-    public string? UserName { get; set; }
+    public string? UserName { get; init; }
     /// <summary>
     /// <para>The Hex color code that the user uses in chat for their name. If the user hasn’t specified a color in their settings, the string is empty.</para>
     /// </summary>
     [JsonPropertyName("color")]
-    public string? Color { get; set; }
+    public string? Color { get; init; }
 }

@@ -8,5 +8,5 @@ public class CreateCustomRewardsResponse
     /// <para>A list that contains the single custom reward you created.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<CustomReward>? Data { get; set; }
+    public List<CustomReward>? Data { get; init; }
 }

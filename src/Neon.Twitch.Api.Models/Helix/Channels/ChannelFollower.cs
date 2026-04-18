@@ -8,20 +8,20 @@ public class ChannelFollower
     /// <para>The UTC timestamp when the user started following the broadcaster.</para>
     /// </summary>
     [JsonPropertyName("followed_at")]
-    public string? FollowedAt { get; set; }
+    public string? FollowedAt { get; init; }
     /// <summary>
     /// <para>An ID that uniquely identifies the user that’s following the broadcaster.</para>
     /// </summary>
     [JsonPropertyName("user_id")]
-    public string? UserId { get; set; }
+    public string? UserId { get; init; }
     /// <summary>
     /// <para>The user’s login name.</para>
     /// </summary>
     [JsonPropertyName("user_login")]
-    public string? UserLogin { get; set; }
+    public string? UserLogin { get; init; }
     /// <summary>
     /// <para>The user’s display name.</para>
     /// </summary>
     [JsonPropertyName("user_name")]
-    public string? UserName { get; set; }
+    public string? UserName { get; init; }
 }

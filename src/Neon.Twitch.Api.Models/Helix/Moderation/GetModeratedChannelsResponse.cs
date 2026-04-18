@@ -9,10 +9,10 @@ public class GetModeratedChannelsResponse
     /// <para>The list of channels that the user has moderator privileges in.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<ModeratedChannel>? Data { get; set; }
+    public List<ModeratedChannel>? Data { get; init; }
     /// <summary>
     /// <para>Contains the information used to page through the list of results. The object is empty if there are no more pages left to page through.</para>
     /// </summary>
     [JsonPropertyName("pagination")]
-    public Pagination? Pagination { get; set; }
+    public Pagination? Pagination { get; init; }
 }

@@ -8,5 +8,5 @@ public class UpdateConduitShardsResponse
     /// <para>List of successful shard updates.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<UpdatedConduitShard>? Data { get; set; }
+    public List<UpdatedConduitShard>? Data { get; init; }
 }

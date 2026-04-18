@@ -8,5 +8,5 @@ public class ResolveUnbanRequestResponse
     /// <para>Results of an unban request.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<UnbanRequest>? Data { get; set; }
+    public List<UnbanRequest>? Data { get; init; }
 }

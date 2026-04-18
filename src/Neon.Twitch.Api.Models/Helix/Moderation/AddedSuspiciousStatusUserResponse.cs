@@ -8,5 +8,5 @@ public class AddedSuspiciousStatusUserResponse
     /// <para>An array with one object containing information about the suspicious user action.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<SuspiciousStatusUser>? Data { get; set; }
+    public List<SuspiciousStatusUser>? Data { get; init; }
 }

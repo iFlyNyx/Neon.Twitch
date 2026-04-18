@@ -8,15 +8,15 @@ public class SharedTrainParticipant
     /// <para>The broadcaster ID.</para>
     /// </summary>
     [JsonPropertyName("broadcaster_user_id")]
-    public string? BroadcasterUserId { get; set; }
+    public string? BroadcasterUserId { get; init; }
     /// <summary>
     /// <para>The broadcaster login.</para>
     /// </summary>
     [JsonPropertyName("broadcaster_user_login")]
-    public string? BroadcasterUserLogin { get; set; }
+    public string? BroadcasterUserLogin { get; init; }
     /// <summary>
     /// <para>The broadcaster display name.</para>
     /// </summary>
     [JsonPropertyName("broadcaster_user_name")]
-    public string? BroadcasterUserName { get; set; }
+    public string? BroadcasterUserName { get; init; }
 }

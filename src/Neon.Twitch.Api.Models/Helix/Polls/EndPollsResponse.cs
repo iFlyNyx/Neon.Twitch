@@ -8,5 +8,5 @@ public class EndPollsResponse
     /// <para>A list that contains the poll that you ended.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<Poll>? Data { get; set; }
+    public List<Poll>? Data { get; init; }
 }

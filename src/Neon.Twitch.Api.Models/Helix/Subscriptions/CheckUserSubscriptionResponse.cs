@@ -8,5 +8,5 @@ public class CheckUserSubscriptionResponse
     /// <para>A list that contains a single object with information about the user’s subscription.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<UserSubscription>? Data { get; set; }
+    public List<UserSubscription>? Data { get; init; }
 }

@@ -8,5 +8,5 @@ public class GetChannelGuestStartSettingsResponse
     /// <para>Gets the channel settings for configuration of the Guest Star feature for a particular host</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<ChannelGuestStarSetting>? Data { get; set; }
+    public List<ChannelGuestStarSetting>? Data { get; init; }
 }

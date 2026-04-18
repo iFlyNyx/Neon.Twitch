@@ -8,5 +8,5 @@ public class CreateConduitsResponse
     /// <para>List of information about the client’s conduits.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<Conduit>? Data { get; set; }
+    public List<Conduit>? Data { get; init; }
 }

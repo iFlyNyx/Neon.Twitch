@@ -8,5 +8,5 @@ public class UpdateUserResponse
     /// <para>A list contains the single user that you updated.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<User>? Data { get; set; }
+    public List<User>? Data { get; init; }
 }

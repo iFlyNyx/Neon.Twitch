@@ -8,11 +8,11 @@ public class Cost
     /// <para>The product’s price.</para>
     /// </summary>
     [JsonPropertyName("amount")]
-    public int? Amount { get; set; }
+    public int? Amount { get; init; }
     /// <summary>
     /// <para>The type of currency. Possible values are:</para>
     /// <para>bits</para>
     /// </summary>
     [JsonPropertyName("type")]
-    public string? Type { get; set; }
+    public string? Type { get; init; }
 }

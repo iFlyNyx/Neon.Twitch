@@ -8,5 +8,5 @@ public class AddBlockedTermResponse
     /// <para>A list that contains the single blocked term that the broadcaster added.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<BlockedTerm>? Data { get; set; }
+    public List<BlockedTerm>? Data { get; init; }
 }

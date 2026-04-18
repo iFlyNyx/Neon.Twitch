@@ -8,10 +8,10 @@ public class GlobalCooldownSetting
     /// <para>A Boolean value that determines whether to apply a cooldown period. Is true if a cooldown period is enabled.</para>
     /// </summary>
     [JsonPropertyName("is_enabled")]
-    public bool? IsEnabled { get; set; }
+    public bool? IsEnabled { get; init; }
     /// <summary>
     /// <para>The cooldown period, in seconds.</para>
     /// </summary>
     [JsonPropertyName("global_cooldown_seconds")]
-    public long? GlobalCooldownSeconds { get; set; }
+    public long? GlobalCooldownSeconds { get; init; }
 }

@@ -8,5 +8,5 @@ public class GetTeamsResponse
     /// <para>A list that contains the single team that you requested.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<Team>? Data { get; set; }
+    public List<Team>? Data { get; init; }
 }

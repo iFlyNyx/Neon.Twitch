@@ -8,5 +8,5 @@ public class EndGuestStarSessionResponse
     /// <para>Summary of the session details when the session was ended.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<GuestStarSession>? Data { get; set; }
+    public List<GuestStarSession>? Data { get; init; }
 }

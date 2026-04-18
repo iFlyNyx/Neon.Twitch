@@ -8,5 +8,5 @@ public class GetUserChatColorResponse
     /// <para>The list of users and the color code they use for their name.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<UserChatColor>? Data { get; set; }
+    public List<UserChatColor>? Data { get; init; }
 }

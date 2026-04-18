@@ -8,5 +8,5 @@ public class GetUsersResponse
     /// <para>The list of users.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<User>? Data { get; set; }
+    public List<User>? Data { get; init; }
 }

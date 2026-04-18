@@ -8,5 +8,5 @@ public class GetHypeTrainStatusResponse
     /// <para>A list that contains information related to the channel’s Hype Train.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<HypeTrainStatus>? Data { get; set; }
+    public List<HypeTrainStatus>? Data { get; init; }
 }

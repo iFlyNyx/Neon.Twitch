@@ -8,5 +8,5 @@ public class UserWarningResponse
     /// <para>A list that contains information about the warning.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<UserWarning>? Data { get; set; }
+    public List<UserWarning>? Data { get; init; }
 }

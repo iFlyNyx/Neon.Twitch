@@ -8,5 +8,5 @@ public class CreateStreamSchduleSegmentResponse
     /// <para>The broadcaster’s streaming scheduled.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<StreamSchedule>? Data { get; set; }
+    public List<StreamSchedule>? Data { get; init; }
 }

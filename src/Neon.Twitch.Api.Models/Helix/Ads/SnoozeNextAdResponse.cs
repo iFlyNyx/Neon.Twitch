@@ -8,5 +8,5 @@ public class SnoozeNextAdResponse
     /// <para>A list that contains information about the channel’s snoozes and next upcoming ad after successfully snoozing.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<SnoozeNextAd>? Data { get; set; }
+    public List<SnoozeNextAd>? Data { get; init; }
 }

@@ -8,5 +8,5 @@ public class UserBanResponse
     /// <para>A list that contains the user you successfully banned or put in a timeout.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<UserBan>? Data { get; set; }
+    public List<UserBan>? Data { get; init; }
 }

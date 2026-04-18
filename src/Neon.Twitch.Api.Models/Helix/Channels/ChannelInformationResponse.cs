@@ -8,5 +8,5 @@ public class ChannelInformationResponse
     /// <para>A list that contains information about the specified channels. The list is empty if the specified channels weren’t found.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<ChannelInformation>? Data { get; set; }
+    public List<ChannelInformation>? Data { get; init; }
 }

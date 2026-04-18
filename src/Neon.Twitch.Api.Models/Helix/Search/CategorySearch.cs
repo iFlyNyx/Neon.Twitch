@@ -8,15 +8,15 @@ public class CategorySearch
     /// <para>A URL to an image of the game’s box art or streaming category.</para>
     /// </summary>
     [JsonPropertyName("box_art_url")]
-    public string? BoxArtUrl { get; set; }
+    public string? BoxArtUrl { get; init; }
     /// <summary>
     /// <para>The name of the game or category.</para>
     /// </summary>
     [JsonPropertyName("name")]
-    public string? Name { get; set; }
+    public string? Name { get; init; }
     /// <summary>
     /// <para>An ID that uniquely identifies the game or category.</para>
     /// </summary>
     [JsonPropertyName("id")]
-    public string? Id { get; set; }
+    public string? Id { get; init; }
 }

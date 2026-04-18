@@ -8,5 +8,5 @@ public class GetChannelTeamsResponse
     /// <para>The list of teams that the broadcaster is a member of. Returns an empty array if the broadcaster is not a member of a team.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<ChannelTeam>? Data { get; set; }
+    public List<ChannelTeam>? Data { get; init; }
 }

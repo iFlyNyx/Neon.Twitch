@@ -9,10 +9,10 @@ public class GetAllStreamTagsResponse
     /// <para>The list of stream tags that the broadcaster can apply to their channel.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<StreamTag>? Data { get; set; }
+    public List<StreamTag>? Data { get; init; }
     /// <summary>
     /// <para>The information used to page through the list of results. The object is empty if there are no more pages left to page through.</para>
     /// </summary>
     [JsonPropertyName("pagination")]
-    public Pagination? Pagination { get; set; }
+    public Pagination? Pagination { get; init; }
 }

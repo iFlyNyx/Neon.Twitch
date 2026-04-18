@@ -8,5 +8,5 @@ public class ContentClassificationLabel
     /// <para>The list of CCLs available.</para>
     /// </summary>
     [JsonPropertyName("content_classification_labels")]
-    public List<ContentLabel>? ContentLabels { get; set; }
+    public List<ContentLabel>? ContentLabels { get; init; }
 }

@@ -8,5 +8,5 @@ public class GetUserAuthorizationResponse
     /// <para>List of users and their authorized scopes.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<UserAuthorization>? Data { get; set; }
+    public List<UserAuthorization>? Data { get; init; }
 }

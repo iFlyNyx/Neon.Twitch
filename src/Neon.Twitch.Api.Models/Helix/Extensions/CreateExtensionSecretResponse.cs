@@ -8,5 +8,5 @@ public class CreateExtensionSecretResponse
     /// <para>A list that contains the newly added secrets.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<ExtensionSecret>? Data { get; set; }
+    public List<ExtensionSecret>? Data { get; init; }
 }

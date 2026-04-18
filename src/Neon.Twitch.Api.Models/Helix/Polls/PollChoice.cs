@@ -8,25 +8,25 @@ public class PollChoice
     /// <para>An ID that identifies this choice.</para>
     /// </summary>
     [JsonPropertyName("id")]
-    public string? Id { get; set; }
+    public string? Id { get; init; }
     /// <summary>
     /// <para>The choice’s title. The title may contain a maximum of 25 characters.</para>
     /// </summary>
     [JsonPropertyName("title")]
-    public string? Title { get; set; }
+    public string? Title { get; init; }
     /// <summary>
     /// <para>The total number of votes cast for this choice.</para>
     /// </summary>
     [JsonPropertyName("votes")]
-    public int? Votes { get; set; }
+    public int? Votes { get; init; }
     /// <summary>
     /// <para>The number of votes cast using Channel Points.</para>
     /// </summary>
     [JsonPropertyName("channel_points_votes")]
-    public int? ChannelPointsVotes { get; set; }
+    public int? ChannelPointsVotes { get; init; }
     /// <summary>
     /// <para>Not used; will be set to 0.</para>
     /// </summary>
     [JsonPropertyName("bits_votes")]
-    public int? BitsVotes { get; set; }
+    public int? BitsVotes { get; init; }
 }

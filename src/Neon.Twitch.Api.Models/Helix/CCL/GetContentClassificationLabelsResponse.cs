@@ -8,5 +8,5 @@ public class GetContentClassificationLabelsResponse
     /// <para>A list that contains information about the available content classification labels.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<ContentClassificationLabel>? Data { get; set; }
+    public List<ContentClassificationLabel>? Data { get; init; }
 }

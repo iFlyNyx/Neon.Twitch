@@ -8,26 +8,26 @@ public class UserExtension
     /// <para>An ID that identifies the extension.</para>
     /// </summary>
     [JsonPropertyName("id")]
-    public string? Id { get; set; }
+    public string? Id { get; init; }
     /// <summary>
     /// <para>The extension's version.</para>
     /// </summary>
     [JsonPropertyName("version")]
-    public string? Version { get; set; }
+    public string? Version { get; init; }
     /// <summary>
     /// <para>The extension's name.</para>
     /// </summary>
     [JsonPropertyName("name")]
-    public string? Name { get; set; }
+    public string? Name { get; init; }
     /// <summary>
     /// <para>A Boolean value that determines whether the extension is configured and can be activated. Is true if the extension is configured and can be activated.</para>
     /// </summary>
     [JsonPropertyName("can_activate")]
-    public bool? CanActivate { get; set; }
+    public bool? CanActivate { get; init; }
     /// <summary>
     /// <para>The extension types that you can activate for this extension. Possible values are:</para>
     /// <para>component | mobile | overlay | panel</para>
     /// </summary>
     [JsonPropertyName("type")]
-    public List<string>? Types { get; set; }
+    public List<string>? Types { get; init; }
 }

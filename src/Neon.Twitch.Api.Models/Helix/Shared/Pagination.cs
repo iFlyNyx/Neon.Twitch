@@ -12,5 +12,5 @@ public class Pagination
     /// <para>The cursor used to get the next page of results. Use the cursor to set the request’s after query parameter.</para>
     /// </summary>
     [JsonPropertyName("cursor")]
-    public string? Cursor { get; set; }
+    public string? Cursor { get; init; }
 }

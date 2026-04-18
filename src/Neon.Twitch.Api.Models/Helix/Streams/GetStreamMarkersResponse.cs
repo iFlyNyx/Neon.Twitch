@@ -8,5 +8,5 @@ public class GetStreamMarkersResponse
     /// <para>The list of markers grouped by the user that created the marks.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<StreamMarker>? Data { get; set; }
+    public List<StreamMarker>? Data { get; init; }
 }

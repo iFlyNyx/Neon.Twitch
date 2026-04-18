@@ -8,15 +8,15 @@ public class HypeTrainRecord
     /// <para>The level of the record Hype Train.</para>
     /// </summary>
     [JsonPropertyName("level")]
-    public int? Level { get; set; }
+    public int? Level { get; init; }
     /// <summary>
     /// <para>Total points contributed to the record Hype Train.</para>
     /// </summary>
     [JsonPropertyName("total")]
-    public int? Total { get; set; }
+    public int? Total { get; init; }
     /// <summary>
     /// <para>The time when the record was achieved.</para>
     /// </summary>
     [JsonPropertyName("achieved_at")]
-    public string? AchievedAt { get; set; }
+    public string? AchievedAt { get; init; }
 }

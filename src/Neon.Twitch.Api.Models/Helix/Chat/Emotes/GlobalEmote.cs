@@ -9,5 +9,5 @@ public class GlobalEmote : Emote
     /// <para>NOTE: You should use the templated URL in the template field to fetch the image instead of using these URLs.</para>
     /// </summary>
     [JsonPropertyName("images")]
-    public Image? Images { get; set; }
+    public Image? Images { get; init; }
 }

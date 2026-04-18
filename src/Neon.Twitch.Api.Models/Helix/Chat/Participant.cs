@@ -8,5 +8,5 @@ public class Participant
     /// <para>The User ID of the participant channel.</para>
     /// </summary>
     [JsonPropertyName("broadcaster_id")]
-    public string? BroadcasterId { get; set; }
+    public string? BroadcasterId { get; init; }
 }

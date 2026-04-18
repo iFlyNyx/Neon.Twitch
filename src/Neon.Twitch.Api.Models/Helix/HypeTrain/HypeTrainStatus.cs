@@ -8,15 +8,15 @@ public class HypeTrainStatus
     /// <para>An object describing the current Hype Train. Null if a Hype Train is not active.</para>
     /// </summary>
     [JsonPropertyName("current")]
-    public HypeTrainCurrent? Current { get; set; }
+    public HypeTrainCurrent? Current { get; init; }
     /// <summary>
     /// <para>An object with information about the channel’s Hype Train records. Null if a Hype Train has not occurred.</para>
     /// </summary>
     [JsonPropertyName("all_time_high")]
-    public HypeTrainRecord? AllTimeHigh { get; set; }
+    public HypeTrainRecord? AllTimeHigh { get; init; }
     /// <summary>
     /// <para>An object with information about the channel’s shared Hype Train records. Null if a Hype Train has not occurred.</para>
     /// </summary>
     [JsonPropertyName("shared_all_time_high")]
-    public HypeTrainRecord? SharedAllTimeHigh { get; set; }
+    public HypeTrainRecord? SharedAllTimeHigh { get; init; }
 }

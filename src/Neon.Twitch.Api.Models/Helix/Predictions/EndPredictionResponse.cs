@@ -8,5 +8,5 @@ public class EndPredictionResponse
     /// <para>A list that contains the single prediction that you updated.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<Prediction>? Data { get; set; }
+    public List<Prediction>? Data { get; init; }
 }

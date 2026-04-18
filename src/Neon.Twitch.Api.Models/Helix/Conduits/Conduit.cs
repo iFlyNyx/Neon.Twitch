@@ -8,10 +8,10 @@ public class Conduit
     /// <para>Conduit ID.</para>
     /// </summary>
     [JsonPropertyName("id")]
-    public string? Id { get; set; }
+    public string? Id { get; init; }
     /// <summary>
     /// <para>Number of shards associated with this conduit.</para>
     /// </summary>
     [JsonPropertyName("shard_count")]
-    public int? ShardCount { get; set; }
+    public int? ShardCount { get; init; }
 }

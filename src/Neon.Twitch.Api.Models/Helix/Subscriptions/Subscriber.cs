@@ -8,20 +8,20 @@ public class Subscriber : UserSubscription
     /// <para>The name of the subscription.</para>
     /// </summary>
     [JsonPropertyName("plan_name")]
-    public string? PlanName { get; set; }
+    public string? PlanName { get; init; }
     /// <summary>
     /// <para>An ID that identifies the subscribing user.</para>
     /// </summary>
     [JsonPropertyName("user_id")]
-    public string? UserId { get; set; }
+    public string? UserId { get; init; }
     /// <summary>
     /// <para>The user’s display name.</para>
     /// </summary>
     [JsonPropertyName("user_name")]
-    public string? UserName { get; set; }
+    public string? UserName { get; init; }
     /// <summary>
     /// <para>The user’s login name.</para>
     /// </summary>
     [JsonPropertyName("user_login")]
-    public string? UserLogin { get; set; }
+    public string? UserLogin { get; init; }
 }

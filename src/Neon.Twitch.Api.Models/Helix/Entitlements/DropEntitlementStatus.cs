@@ -13,10 +13,10 @@ public class DropEntitlementStatus
     /// <para>UPDATE_FAILED — The update failed. These are considered transient errors and the request should be retried later.</para>
     /// </summary>
     [JsonPropertyName("status")]
-    public string? Status { get; set; }
+    public string? Status { get; init; }
     /// <summary>
     /// <para>The list of entitlements that the status in the status field applies to.</para>
     /// </summary>
     [JsonPropertyName("ids")]
-    public List<string>? Ids { get; set; }
+    public List<string>? Ids { get; init; }
 }

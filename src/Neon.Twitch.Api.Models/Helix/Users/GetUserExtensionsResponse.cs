@@ -8,5 +8,5 @@ public class GetUserExtensionsResponse
     /// <para>The list of extensions that the user has installed.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<UserExtension>? Data { get; set; }
+    public List<UserExtension>? Data { get; init; }
 }

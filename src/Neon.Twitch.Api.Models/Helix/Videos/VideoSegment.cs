@@ -8,10 +8,10 @@ public class VideoSegment
     /// <para>The duration of the muted segment, in seconds.</para>
     /// </summary>
     [JsonPropertyName("duration")]
-    public int? Duration { get; set; }
+    public int? Duration { get; init; }
     /// <summary>
     /// <para>The offset, in seconds, from the beginning of the video to where the muted segment begins.</para>
     /// </summary>
     [JsonPropertyName("offset")]
-    public int? Offset { get; set; }
+    public int? Offset { get; init; }
 }

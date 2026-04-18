@@ -8,5 +8,5 @@ public class ChannelEditorsResponse
     /// <para></para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<ChannelEditor>? Data { get; set; }
+    public List<ChannelEditor>? Data { get; init; }
 }

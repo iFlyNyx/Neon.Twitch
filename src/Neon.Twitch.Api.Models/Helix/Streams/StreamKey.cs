@@ -8,5 +8,5 @@ public class StreamKey
     /// <para>The channel’s stream key.</para>
     /// </summary>
     [JsonPropertyName("stream_key")]
-    public string? Value { get; set; }
+    public string? Value { get; init; }
 }

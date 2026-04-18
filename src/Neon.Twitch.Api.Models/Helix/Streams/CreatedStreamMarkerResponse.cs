@@ -8,5 +8,5 @@ public class CreatedStreamMarkerResponse
     /// <para>A list that contains the single marker that you added.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<CreatedStreamMarker>? Data { get; set; }
+    public List<CreatedStreamMarker>? Data { get; init; }
 }

@@ -8,5 +8,5 @@ public class GetStreamKeyResponse
     /// <para>A list that contains the channel’s stream key.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public List<StreamKey>? Data { get; set; }
+    public List<StreamKey>? Data { get; init; }
 }
