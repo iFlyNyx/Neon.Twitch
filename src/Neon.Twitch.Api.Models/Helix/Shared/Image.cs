@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Shared;
 
-public class Image
+internal class Image
 {
     /// <summary>
     /// <para>The URL to a small version of the image.</para>

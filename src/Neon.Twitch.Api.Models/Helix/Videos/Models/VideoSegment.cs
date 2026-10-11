@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Videos.Models;
 
-public class VideoSegment
+internal class VideoSegment
 {
     /// <summary>
     /// <para>The duration of the muted segment, in seconds.</para>

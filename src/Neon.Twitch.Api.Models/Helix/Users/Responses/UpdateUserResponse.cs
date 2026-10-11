@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Users.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Users.Responses;
 
-public class UpdateUserResponse
+internal class UpdateUserResponse
 {
     /// <summary>
     /// <para>A list contains the single user that you updated.</para>

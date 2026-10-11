@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Ads.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Ads.Responses;
 
-public class GetAdScheduleResponse
+internal class GetAdScheduleResponse
 {
     /// <summary>
     /// <para>A list that contains information related to the channel’s ad schedule.</para>

@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Models;
 
-public class SharedChatSession
+internal class SharedChatSession
 {
     /// <summary>
     /// <para>The unique identifier for the shared chat session.</para>

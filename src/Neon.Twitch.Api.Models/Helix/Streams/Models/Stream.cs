@@ -1,8 +1,10 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Enums.Shared;
+using Neon.Twitch.Api.Models.Helix.Streams.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Streams.Models;
 
-public class Stream
+internal class Stream
 {
     /// <summary>
     /// <para>An ID that identifies the stream. You can use this ID later to look up the video on demand (VOD).</para>
@@ -38,7 +40,7 @@ public class Stream
     /// <para>The type of stream. Possible values are: live. If an error occurs, this field is set to an empty string.</para>
     /// </summary>
     [JsonPropertyName("type")]
-    public string? Type { get; init; }
+    public StreamType? Type { get; init; }
     /// <summary>
     /// <para>The stream’s title. Is an empty string if not set.</para>
     /// </summary>
@@ -63,7 +65,7 @@ public class Stream
     /// <para>The language that the stream uses. This is an ISO 639-1 two-letter language code or other if the stream uses a language not in the list of supported stream <see href="https://help.twitch.tv/s/article/languages-on-twitch#streamlang">languages</see>.</para>
     /// </summary>
     [JsonPropertyName("language")]
-    public string? Language { get; init; }
+    public Languages? Language { get; init; }
     /// <summary>
     /// <para>A URL to an image of a frame from the last 5 minutes of the stream. Replace the width and height placeholders in the URL ({width}x{height}) with the size of the image you want, in pixels.</para>
     /// </summary>

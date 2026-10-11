@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Users.Models;
 
-public class UserActiveExtension
+internal class UserActiveExtension
 {
     /// <summary>
     /// <para>A dictionary that contains the data for a panel extension. The dictionary’s key is a sequential number beginning with 1. The following fields contain the panel’s data for each key.</para>

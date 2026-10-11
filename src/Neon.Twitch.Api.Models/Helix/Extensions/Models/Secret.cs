@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class Secret
+internal class Secret
 {
     /// <summary>
     /// <para>The raw secret that you use with JWT encoding.</para>

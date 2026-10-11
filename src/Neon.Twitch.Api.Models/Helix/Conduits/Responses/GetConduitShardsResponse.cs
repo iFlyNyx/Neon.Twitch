@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Conduits.Responses;
 
-public class GetConduitShardsResponse
+internal class GetConduitShardsResponse
 {
     /// <summary>
     /// <para>List of information about a conduit's shards.</para>

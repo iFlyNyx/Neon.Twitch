@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Tags.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Tags.Responses;
 
-public class GetAllStreamTagsResponse
+internal class GetAllStreamTagsResponse
 {
     /// <summary>
     /// <para>The list of stream tags that the broadcaster can apply to their channel.</para>

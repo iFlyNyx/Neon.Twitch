@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Chat.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Models;
 
-public class ChatSettings
+internal class ChatSettings
 {
     /// <summary>
     /// <para>The ID of the broadcaster specified in the request.</para>
@@ -42,7 +43,7 @@ public class ChatSettings
     /// <para>The response includes this field only if the request specifies a user access token that includes the moderator:read:chat_settings scope and the user in the moderator_id query parameter is one of the broadcaster’s moderators.</para>
     /// </summary>
     [JsonPropertyName("non_moderator_chat_delay_duration")]
-    public int? NonModeratorChatDelayDuration { get; init; }
+    public NonModChatDelayDuration? NonModeratorChatDelayDuration { get; init; }
     /// <summary>
     /// <para>A Boolean value that determines whether the broadcaster limits how often users in the chat room are allowed to send messages.</para>
     /// <para>Is true if the broadcaster applies a delay; otherwise, false.</para>

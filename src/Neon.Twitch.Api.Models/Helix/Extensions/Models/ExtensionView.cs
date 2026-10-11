@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class ExtensionView
+internal class ExtensionView
 {
     /// <summary>
     /// <para>Describes how the extension is displayed on mobile devices.</para>

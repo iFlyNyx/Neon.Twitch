@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Predictions.Responses;
 
-public class GetPredictionsResponse
+internal class GetPredictionsResponse
 {
     /// <summary>
     /// <para>The broadcaster’s list of Channel Points Predictions. The list is sorted in descending ordered by when the prediction began (the most recent prediction is first). The list is empty if the broadcaster hasn’t created predictions.</para>

@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace Neon.Twitch.Api.Models.Helix.Users.Requests;
 
-public class UpdateUserExtensionRequest
+internal class UpdateUserExtensionRequest
 {
     /// <summary>
     /// <para>The extensions to update. The data field is a dictionary of extension types. The dictionary’s possible keys are: panel, overlay, or component. The key’s value is a dictionary of extensions.</para>
@@ -12,5 +12,5 @@ public class UpdateUserExtensionRequest
     /// </summary>
     [JsonPropertyName("data")]
     [Required]
-    public Dictionary<string, string>? Data { get; set; }
+    public Dictionary<string, string>? Data { get; init; }
 }

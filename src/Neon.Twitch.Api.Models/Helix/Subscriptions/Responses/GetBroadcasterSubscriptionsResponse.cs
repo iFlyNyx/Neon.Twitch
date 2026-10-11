@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Subscriptions.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Subscriptions.Responses;
 
-public class GetBroadcasterSubscriptionsResponse
+internal class GetBroadcasterSubscriptionsResponse
 {
     /// <summary>
     /// <para>The list of users that subscribe to the broadcaster. The list is empty if the broadcaster has no subscribers.</para>

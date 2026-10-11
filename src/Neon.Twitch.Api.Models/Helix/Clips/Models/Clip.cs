@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Enums.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Clips.Models;
 
-public class Clip
+internal class Clip
 {
     /// <summary>
     /// <para>An ID that uniquely identifies the clip.</para>
@@ -53,7 +54,7 @@ public class Clip
     /// <para>The ISO 639-1 two-letter language code that the broadcaster broadcasts in. For example, en for English. The value is other if the broadcaster uses a language that Twitch doesn’t support.</para>
     /// </summary>
     [JsonPropertyName("language")]
-    public string? Language { get; init; }
+    public Languages? Language { get; init; }
     /// <summary>
     /// <para>The title of the clip.</para>
     /// </summary>

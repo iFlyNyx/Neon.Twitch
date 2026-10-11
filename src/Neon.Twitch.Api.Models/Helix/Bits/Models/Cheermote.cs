@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Bits.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Bits.Models;
 
-public class Cheermote
+internal class Cheermote
 {
     /// <summary>
     /// <para>The name portion of the Cheermote string that you use in chat to cheer Bits. The full Cheermote string is the concatenation of {prefix} + {number of Bits}. For example, if the prefix is “Cheer” and you want to cheer 100 Bits, the full Cheermote string is Cheer100. When the Cheermote string is entered in chat, Twitch converts it to the image associated with the Bits tier that was cheered.</para>
@@ -23,7 +24,7 @@ public class Cheermote
     /// <para>sponsored — A sponsor-defined Cheermote. When used, the sponsor adds additional Bits to the amount that the user cheered. For example, if the user cheered Terminator100, the broadcaster might receive 110 Bits, which includes the sponsor's 10 Bits contribution.</para>
     /// </summary>
     [JsonPropertyName("type")]
-    public string? Type { get; init; }
+    public BitsType? Type { get; init; }
     /// <summary>
     /// <para>The order that the Cheermotes are shown in the Bits card. The numbers may not be consecutive. For example, the numbers may jump from 1 to 7 to 13. The order numbers are unique within a Cheermote type (for example, global_first_party) but may not be unique amongst all Cheermotes in the response.</para>
     /// </summary>

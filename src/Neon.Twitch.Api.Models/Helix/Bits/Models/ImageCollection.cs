@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Bits.Models;
 
-public class ImageCollection
+internal class ImageCollection
 {
     [JsonPropertyName("animated")]
     public Dictionary<string, string>? Animated { get; init; }

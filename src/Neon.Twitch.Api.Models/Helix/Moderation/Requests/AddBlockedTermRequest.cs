@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Requests;
 
-public class AddBlockedTermRequest
+internal class AddBlockedTermRequest
 {
     /// <summary>
     /// <para>The word or phrase to block from being used in the broadcaster’s chat room. The term must contain a minimum of 2 characters and may contain up to a maximum of 500 characters.</para>
@@ -14,5 +14,5 @@ public class AddBlockedTermRequest
     [Required]
     [MinLength(2)]
     [MaxLength(500)]
-    public string? Text { get; set; }
+    public string? Text { get; init; }
 }

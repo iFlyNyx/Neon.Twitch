@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Raids.Models;
 
-public class RaidStart
+internal class RaidStart
 {
     /// <summary>
     /// <para>The UTC date and time, in RFC3339 format, of when the raid was requested.</para>

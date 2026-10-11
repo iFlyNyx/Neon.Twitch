@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Models;
 
-public class Participant
+internal class Participant
 {
     /// <summary>
     /// <para>The User ID of the participant channel.</para>

@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Moderation.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Models;
 
-public class SuspiciousStatusUser
+internal class SuspiciousStatusUser
 {
     /// <summary>
     /// <para>The ID of the user being given the suspicious status.</para>
@@ -28,10 +29,10 @@ public class SuspiciousStatusUser
     /// <para>The type of suspicious status. Possible values are: ACTIVE_MONITORING, RESTRICTED</para>
     /// </summary>
     [JsonPropertyName("status")]
-    public string? Status { get; init; }
+    public SuspiciousUserStatus? Status { get; init; }
     /// <summary>
     /// <para>An array of strings representing the type(s) of suspicious user this is. Possible values are: MANUALLY_ADDED, DETECTED_BAN_EVADER, DETECTED_SUS_CHATTER, BANNED_IN_SHARED_CHANNEL</para>
     /// </summary>
     [JsonPropertyName("types")]
-    public List<string>? Types { get; init; }
+    public List<SuspiciousUserType>? Types { get; init; }
 }

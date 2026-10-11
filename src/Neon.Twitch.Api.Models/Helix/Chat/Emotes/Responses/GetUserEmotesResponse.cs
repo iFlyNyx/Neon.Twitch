@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Emotes.Responses;
 
-public class GetUserEmotesResponse
+internal class GetUserEmotesResponse
 {
     /// <summary>
     /// <para>Contains the information used to page through the list of results. The object is empty if there are no more pages left to page through. </para>

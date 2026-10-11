@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Models;
 
-public class AutomodStatus
+internal class AutomodStatus
 {
     /// <summary>
     /// <para>The caller-defined ID passed in the request.</para>

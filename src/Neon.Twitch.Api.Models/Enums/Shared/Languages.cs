@@ -1,0 +1,68 @@
+﻿using System.Text.Json.Serialization;
+
+namespace Neon.Twitch.Api.Models.Enums.Shared;
+
+[JsonConverter(typeof(JsonStringEnumConverter))]
+public enum Languages
+{
+    [JsonStringEnumMemberName("en")]
+    English,
+    [JsonStringEnumMemberName("ar")]
+    Arabic,
+    [JsonStringEnumMemberName("bg")]
+    Bulgarian,
+    [JsonStringEnumMemberName("zh")]
+    ChineseSmpl,
+    [JsonStringEnumMemberName("zh")]
+    ChineseTrdl,
+    [JsonStringEnumMemberName("cs")]
+    Czech,
+    [JsonStringEnumMemberName("da")]
+    Danish,
+    [JsonStringEnumMemberName("nl")]
+    Dutch,
+    [JsonStringEnumMemberName("fi")]
+    Finnish,
+    [JsonStringEnumMemberName("fr")]
+    French,
+    [JsonStringEnumMemberName("de")]
+    German,
+    [JsonStringEnumMemberName("el")]
+    Greek,
+    [JsonStringEnumMemberName("hu")]
+    Hungarian,
+    [JsonStringEnumMemberName("it")]
+    Italian,
+    [JsonStringEnumMemberName("ja")]
+    Japanese,
+    [JsonStringEnumMemberName("ko")]
+    Korean,
+    [JsonStringEnumMemberName("no")]
+    Norwegian,
+    [JsonStringEnumMemberName("pl")]
+    Polish,
+    [JsonStringEnumMemberName("pt")]
+    PortugueseBr,
+    [JsonStringEnumMemberName("pt")]
+    PortuguesePt,
+    [JsonStringEnumMemberName("ro")]
+    Romanian,
+    [JsonStringEnumMemberName("ru")]
+    Russian,
+    [JsonStringEnumMemberName("sk")]
+    Slovak,
+    [JsonStringEnumMemberName("es")]
+    SpanishEu,
+    [JsonStringEnumMemberName("es")]
+    SpanishLatam,
+    [JsonStringEnumMemberName("sv")]
+    Swedish,
+    [JsonStringEnumMemberName("th")]
+    Thai,
+    [JsonStringEnumMemberName("tr")]
+    Turkish,
+    [JsonStringEnumMemberName("vi")]
+    Vietnamese,
+    [JsonStringEnumMemberName("other")]
+    Other
+}

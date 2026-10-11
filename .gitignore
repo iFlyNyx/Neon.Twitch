@@ -6,6 +6,9 @@
 /.idea
 /.vs
 
+#simple test project for quick testing
+/src/Neon.Twitch.TestConsole
+
 *.env
 !*/sample.env
 */secrets.json

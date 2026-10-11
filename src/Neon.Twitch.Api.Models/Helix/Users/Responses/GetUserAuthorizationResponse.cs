@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Users.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Users.Responses;
 
-public class GetUserAuthorizationResponse
+internal class GetUserAuthorizationResponse
 {
     /// <summary>
     /// <para>List of users and their authorized scopes.</para>

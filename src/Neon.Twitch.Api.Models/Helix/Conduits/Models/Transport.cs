@@ -1,15 +1,16 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Conduits.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Conduits.Models;
 
-public class Transport
+internal class Transport
 {
     /// <summary>
     /// <para>The transport method. Possible values are:</para>
     /// <para>webhook | websocket</para>
     /// </summary>
     [JsonPropertyName("method")]
-    public string? Method { get; init; }
+    public TransportMethod? Method { get; init; }
     /// <summary>
     /// <para>The callback URL where the notifications are sent. Included only if method is set to webhook.</para>
     /// </summary>

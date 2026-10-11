@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Extensions.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class ExtensionTransaction
+internal class ExtensionTransaction
 {
     /// <summary>
     /// <para>An ID that identifies the transaction.</para>
@@ -48,7 +49,7 @@ public class ExtensionTransaction
     /// <para>The type of transaction. Possible values are: BITS_IN_EXTENSION</para>
     /// </summary>
     [JsonPropertyName("product_type")]
-    public string? ProductType { get; init; }
+    public ExtensionProductType? ProductType { get; init; }
     /// <summary>
     /// <para>Contains details about the digital product.</para>
     /// </summary>

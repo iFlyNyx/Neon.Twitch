@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="src/Neon.Twitch.Api.Core/Neon.Twitch.Api.Core.csproj" />
   <Project Path="src/Neon.Twitch.Api.Models/Neon.Twitch.Api.Models.csproj" />
   <Project Path="src/Neon.Twitch.Api/Neon.Twitch.Api.csproj" />
+  <Project Path="src/Neon.Twitch.TestConsole/Neon.Twitch.TestConsole.csproj" />
 </Solution>

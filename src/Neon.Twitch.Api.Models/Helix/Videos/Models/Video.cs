@@ -1,8 +1,10 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Enums.Shared;
+using Neon.Twitch.Api.Models.Helix.Videos.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Videos.Models;
 
-public class Video
+internal class Video
 {
     /// <summary>
     /// <para>An ID that identifies the video.</para>
@@ -73,7 +75,7 @@ public class Video
     /// <para>The ISO 639-1 two-letter language code that the video was broadcast in. For example, the language code is DE if the video was broadcast in German. For a list of supported languages, see <see href="https://help.twitch.tv/s/article/languages-on-twitch#streamlang">Supported Stream Language</see>. The language value is "other" if the video was broadcast in a language not in the list of supported languages.</para>
     /// </summary>
     [JsonPropertyName("language")]
-    public string? Language { get; init; }
+    public Languages? Language { get; init; }
     /// <summary>
     /// <para>The video's type. Possible values are:</para>
     /// <para>archive — An on-demand video (VOD) of one of the broadcaster's past streams.</para>
@@ -81,7 +83,7 @@ public class Video
     /// <para>upload — A video that the broadcaster uploaded to their video library. See Upload under <see href="https://help.twitch.tv/s/article/video-on-demand?language=en_US#videoproducer">Video Producer</see>.</para>
     /// </summary>
     [JsonPropertyName("type")]
-    public string? Type { get; init; }
+    public VideoType? Type { get; init; }
     /// <summary>
     /// <para>The video's length in ISO 8601 duration format. For example, 3m21s represents 3 minutes, 21 seconds.</para>
     /// </summary>

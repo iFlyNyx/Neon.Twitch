@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Models;
 
-public class ModeratedChannel
+internal class ModeratedChannel
 {
     /// <summary>
     /// <para>An ID that uniquely identifies the channel this user can moderate.</para>

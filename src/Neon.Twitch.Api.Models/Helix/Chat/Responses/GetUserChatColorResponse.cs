@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Chat.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Responses;
 
-public class GetUserChatColorResponse
+internal class GetUserChatColorResponse
 {
     /// <summary>
     /// <para>The list of users and the color code they use for their name.</para>

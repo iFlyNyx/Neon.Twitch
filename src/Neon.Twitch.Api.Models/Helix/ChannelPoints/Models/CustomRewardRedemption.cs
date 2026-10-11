@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.ChannelPoints.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.ChannelPoints.Models;
 
-public class CustomRewardRedemption
+internal class CustomRewardRedemption
 {
     /// <summary>
     /// <para>The ID that uniquely identifies the broadcaster.</para>
@@ -49,7 +50,7 @@ public class CustomRewardRedemption
     /// <para>CANCELED|FULFILLED|UNFULFILLED</para>
     /// </summary>
     [JsonPropertyName("status")]
-    public string? Status { get; init; }
+    public RedemptionStatus? Status { get; init; }
     /// <summary>
     /// <para>The date and time of when the reward was redeemed, in RFC3339 format.</para>
     /// </summary>

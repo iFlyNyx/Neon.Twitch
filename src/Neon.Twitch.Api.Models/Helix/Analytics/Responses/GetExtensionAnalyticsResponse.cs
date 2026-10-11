@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Analytics.Responses;
 
-public class GetExtensionAnalyticsResponse
+internal class GetExtensionAnalyticsResponse
 {
     /// <summary>
     /// <para>A list of reports. The reports are returned in no particular order; however, the data within each report is in ascending order by date (newest first). The report contains one row of data per day of the reporting window; the report contains rows for only those days that the extension was used. The array is empty if there are no reports.</para>

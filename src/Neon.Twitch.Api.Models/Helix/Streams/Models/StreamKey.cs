@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Streams.Models;
 
-public class StreamKey
+internal class StreamKey
 {
     /// <summary>
     /// <para>The channel’s stream key.</para>

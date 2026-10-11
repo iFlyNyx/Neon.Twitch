@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Teams.Models;
 
-public class ChannelTeam
+internal class ChannelTeam
 {
     /// <summary>
     /// <para>An ID that identifies the broadcaster.</para>

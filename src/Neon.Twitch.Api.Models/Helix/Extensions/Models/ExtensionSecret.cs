@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class ExtensionSecret
+internal class ExtensionSecret
 {
     /// <summary>
     /// <para>The version number that identifies this definition of the secret’s data.</para>

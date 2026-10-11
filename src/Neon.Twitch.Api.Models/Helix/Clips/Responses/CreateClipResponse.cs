@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Clips.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Clips.Responses;
 
-public class CreateClipResponse
+internal class CreateClipResponse
 {
     /// <summary>
     /// <para>A list containing the created clip.</para>

@@ -6,7 +6,7 @@ namespace Neon.Twitch.Api.Models.Helix.Shared;
 /// <para>Contains the information used to page through the list of results. The object is empty if there are no more pages left to page through.</para>
 /// <see href="https://dev.twitch.tv/docs/api/guide#pagination">Read More</see>
 /// </summary>
-public class Pagination
+internal class Pagination
 {
     /// <summary>
     /// <para>The cursor used to get the next page of results. Use the cursor to set the request’s after query parameter.</para>

@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Users.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Users.Responses;
 
-public class GetBlockListUsersResponse
+internal class GetBlockListUsersResponse
 {
     /// <summary>
     /// <para>The list of blocked users. The list is in descending order by when the user was blocked.</para>

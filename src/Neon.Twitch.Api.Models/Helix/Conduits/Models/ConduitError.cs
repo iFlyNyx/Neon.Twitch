@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Conduits.Models;
 
-public class ConduitError
+internal class ConduitError
 {
     /// <summary>
     /// <para>Shard ID.</para>

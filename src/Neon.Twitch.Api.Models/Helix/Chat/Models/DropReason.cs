@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Models;
 
-public class DropReason
+internal class DropReason
 {
     /// <summary>
     /// <para>Code for why the message was dropped.</para>

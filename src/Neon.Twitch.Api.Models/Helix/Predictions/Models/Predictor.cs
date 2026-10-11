@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Predictions.Models;
 
-public class Predictor
+internal class Predictor
 {
     /// <summary>
     /// <para>An ID that identifies the viewer.</para>

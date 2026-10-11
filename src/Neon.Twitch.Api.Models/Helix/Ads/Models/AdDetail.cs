@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Ads.Models;
 
-public abstract class AdDetail
+internal abstract class AdDetail
 {
     /// <summary>
     /// <para>The number of snoozes available for the broadcaster.</para>

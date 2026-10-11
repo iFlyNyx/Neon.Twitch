@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Channels.Models;
 
-public class ChannelEditor
+internal class ChannelEditor
 {
     /// <summary>
     /// <para>An ID that uniquely identifies a user with editor permissions.</para>

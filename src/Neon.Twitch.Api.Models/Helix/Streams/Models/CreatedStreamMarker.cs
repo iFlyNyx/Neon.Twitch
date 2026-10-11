@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Streams.Models;
 
-public class CreatedStreamMarker
+internal class CreatedStreamMarker
 {
     /// <summary>
     /// <para>An ID that identifies this marker.</para>

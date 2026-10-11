@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Clips.Responses;
 
-public class GetClipsResponse
+internal class GetClipsResponse
 {
     /// <summary>
     /// <para>The list of video clips. For clips returned by game_id or broadcaster_id, the list is in descending order by view count. For lists returned by id, the list is in the same order as the input IDs.</para>

@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.HypeTrain.Models;
 
-public class HypeTrainRecord
+internal class HypeTrainRecord
 {
     /// <summary>
     /// <para>The level of the record Hype Train.</para>

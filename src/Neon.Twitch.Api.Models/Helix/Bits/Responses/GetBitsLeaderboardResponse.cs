@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Bits.Responses;
 
-public class GetBitsLeaderboardResponse
+internal class GetBitsLeaderboardResponse
 {
     /// <summary>
     /// <para>A list of leaderboard leaders. The leaders are returned in rank order by how much they’ve cheered. The array is empty if nobody has cheered bits.</para>

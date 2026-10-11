@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Teams.Models;
 
-public class Team
+internal class Team
 {
     /// <summary>
     /// <para>The list of team members.</para>

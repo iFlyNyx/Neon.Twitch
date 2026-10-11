@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Clips.Models;
 
-public class ClipDownload
+internal class ClipDownload
 {
     /// <summary>
     /// <para>An ID that uniquely identifies the clip.</para>

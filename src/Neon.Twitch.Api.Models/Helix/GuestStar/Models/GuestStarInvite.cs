@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.GuestStar.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.GuestStar.Models;
 
-public class GuestStarInvite
+internal class GuestStarInvite
 {
     /// <summary>
     /// <para>Twitch User ID corresponding to the invited guest</para>
@@ -21,7 +22,7 @@ public class GuestStarInvite
     /// <para>READY: The invited user has signaled they are ready to join the call from the waiting room.</para>
     /// </summary>
     [JsonPropertyName("status")]
-    public string? Status { get; init; }
+    public InviteStatus? Status { get; init; }
     /// <summary>
     /// <para>Flag signaling that the invited user has chosen to disable their local video device. The user has hidden themselves, but they may choose to reveal their video feed upon joining the session.</para>
     /// </summary>

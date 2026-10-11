@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace Neon.Twitch.Api.Models.Helix.Whispers.Requests;
 
-public class SendWhisperRequest
+internal class SendWhisperRequest
 {
     /// <summary>
     /// <para>The whisper message to send. The message must not be empty. The maximum message lengths are:</para>
@@ -13,5 +13,5 @@ public class SendWhisperRequest
     /// </summary>
     [JsonPropertyName("message")]
     [Required]
-    public string? Message { get; set; }
+    public string? Message { get; init; }
 }

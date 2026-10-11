@@ -1,0 +1,66 @@
+﻿using System.Text.Json.Serialization;
+
+namespace Neon.Twitch.Api.Models.Helix.CCL.Enums;
+
+[JsonConverter(typeof(JsonStringEnumConverter))]
+internal enum CCLLocale
+{
+    [JsonStringEnumMemberName("en-US")]
+    English,
+    [JsonStringEnumMemberName("en-GB")]
+    EnglishGb,
+    [JsonStringEnumMemberName("bg-BG")]
+    Bulgarian,
+    [JsonStringEnumMemberName("zh-CN")]
+    ChineseSmpl,
+    [JsonStringEnumMemberName("zh-TW")]
+    ChineseTrdl,
+    [JsonStringEnumMemberName("cs-CZ")]
+    Czech,
+    [JsonStringEnumMemberName("da-DK")]
+    Danish,
+    [JsonStringEnumMemberName("nl-NL")]
+    Dutch,
+    [JsonStringEnumMemberName("fi-FI")]
+    Finnish,
+    [JsonStringEnumMemberName("fr-FR")]
+    French,
+    [JsonStringEnumMemberName("de-DE")]
+    German,
+    [JsonStringEnumMemberName("el-GR")]
+    Greek,
+    [JsonStringEnumMemberName("hu-HU")]
+    Hungarian,
+    [JsonStringEnumMemberName("it-IT")]
+    Italian,
+    [JsonStringEnumMemberName("ja-JP")]
+    Japanese,
+    [JsonStringEnumMemberName("ko-KR")]
+    Korean,
+    [JsonStringEnumMemberName("no-NO")]
+    Norwegian,
+    [JsonStringEnumMemberName("pl-PL")]
+    Polish,
+    [JsonStringEnumMemberName("pt-BT")]
+    PortugueseBr,
+    [JsonStringEnumMemberName("pt-PT")]
+    PortuguesePt,
+    [JsonStringEnumMemberName("ro-RO")]
+    Romanian,
+    [JsonStringEnumMemberName("ru-RU")]
+    Russian,
+    [JsonStringEnumMemberName("sk-SK")]
+    Slovak,
+    [JsonStringEnumMemberName("es-ES")]
+    SpanishEu,
+    [JsonStringEnumMemberName("es-MX")]
+    SpanishLatam,
+    [JsonStringEnumMemberName("sv-SE")]
+    Swedish,
+    [JsonStringEnumMemberName("th-TH")]
+    Thai,
+    [JsonStringEnumMemberName("tr-TR")]
+    Turkish,
+    [JsonStringEnumMemberName("vi-VN")]
+    Vietnamese
+}

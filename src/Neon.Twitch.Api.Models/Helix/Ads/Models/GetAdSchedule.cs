@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Ads.Models;
 
-public class GetAdSchedule : AdDetail
+internal class GetAdSchedule : AdDetail
 {
     /// <summary>
     /// <para>The length in seconds of the scheduled upcoming ad break.</para>

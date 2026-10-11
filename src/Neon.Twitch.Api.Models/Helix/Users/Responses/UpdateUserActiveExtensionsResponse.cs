@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Users.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Users.Responses;
 
-public class UpdateUserActiveExtensionsResponse
+internal class UpdateUserActiveExtensionsResponse
 {
     /// <summary>
     /// <para>The extensions that the broadcaster updated.</para>

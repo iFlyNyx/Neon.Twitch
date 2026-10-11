@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Search.Models;
 
-public class CategorySearch
+internal class CategorySearch
 {
     /// <summary>
     /// <para>A URL to an image of the game’s box art or streaming category.</para>

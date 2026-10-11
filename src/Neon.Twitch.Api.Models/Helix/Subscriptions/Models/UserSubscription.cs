@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Subscriptions.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Subscriptions.Models;
 
-public class UserSubscription
+internal class UserSubscription
 {
     /// <summary>
     /// <para>An ID that identifies the broadcaster.</para>
@@ -44,5 +45,5 @@ public class UserSubscription
     /// <para>1000 (tier 1) | 2000 (tier 2) | 3000 (tier 3)</para>
     /// </summary>
     [JsonPropertyName("tier")]
-    public string? Tier { get; init; }
+    public SubscriptionTier? Tier { get; init; }
 }

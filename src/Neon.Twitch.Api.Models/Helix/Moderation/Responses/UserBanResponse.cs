@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Moderation.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Responses;
 
-public class UserBanResponse
+internal class UserBanResponse
 {
     /// <summary>
     /// <para>A list that contains the user you successfully banned or put in a timeout.</para>

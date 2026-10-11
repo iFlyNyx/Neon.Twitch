@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Conduits.Models;
 
-public class UpdatedConduitShard : ConduitShard
+internal class UpdatedConduitShard : ConduitShard
 {
     /// <summary>
     /// <para>List of unsuccessful updates.</para>

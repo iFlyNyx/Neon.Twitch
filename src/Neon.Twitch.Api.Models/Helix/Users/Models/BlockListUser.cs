@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Users.Models;
 
-public class BlockListUser
+internal class BlockListUser
 {
     /// <summary>
     /// <para>An ID that identifies the blocked user.</para>

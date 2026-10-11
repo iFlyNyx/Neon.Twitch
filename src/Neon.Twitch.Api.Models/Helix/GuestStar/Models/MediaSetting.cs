@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.GuestStar.Models;
 
-public class MediaSetting
+internal class MediaSetting
 {
     /// <summary>
     /// <para>Flag determining whether the host is allowing the guest’s video to be seen or heard within the session.</para>

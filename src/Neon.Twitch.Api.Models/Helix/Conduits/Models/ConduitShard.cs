@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Conduits.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Conduits.Models;
 
-public abstract class ConduitShard
+internal abstract class ConduitShard
 {
     /// <summary>
     /// <para>Shard ID.</para>
@@ -24,7 +25,7 @@ public abstract class ConduitShard
     /// <para>websocket_failed_to_reconnect - The client failed to reconnect to the Twitch WebSocket server within the required time after a Reconnect Message.</para>
     /// </summary>
     [JsonPropertyName("status")]
-    public string? Status { get; init; }
+    public ShardStatus? Status { get; init; }
     /// <summary>
     /// <para>The transport details used to send the notifications.</para>
     /// </summary>

@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Videos.Responses;
 
-public class DeleteVideosResponse
+internal class DeleteVideosResponse
 {
     /// <summary>
     /// <para>The list of IDs of the videos that were deleted.</para>

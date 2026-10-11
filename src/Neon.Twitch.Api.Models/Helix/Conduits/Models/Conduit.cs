@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Conduits.Models;
 
-public class Conduit
+internal class Conduit
 {
     /// <summary>
     /// <para>Conduit ID.</para>

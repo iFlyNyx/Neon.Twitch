@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Entitlements.Responses;
 
-public class GetDropEntitlementsResponse
+internal class GetDropEntitlementsResponse
 {
     /// <summary>
     /// <para>The list of entitlements.</para>

@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Streams.Models;
 
-public class StreamVideo
+internal class StreamVideo
 {
     /// <summary>
     /// <para>An ID that identifies this video.</para>

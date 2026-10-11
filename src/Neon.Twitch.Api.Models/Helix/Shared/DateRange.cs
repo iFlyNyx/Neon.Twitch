@@ -5,7 +5,7 @@ namespace Neon.Twitch.Api.Models.Helix.Shared;
 /// <summary>
 /// <para>The reporting window’s start and end dates, in RFC3339 format.</para>
 /// </summary>
-public class DateRange
+internal class DateRange
 {
     /// <summary>
     /// <para>The reporting window’s start date.</para>

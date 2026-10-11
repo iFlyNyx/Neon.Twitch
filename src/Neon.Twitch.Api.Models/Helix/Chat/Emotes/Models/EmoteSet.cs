@@ -1,15 +1,16 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Chat.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Emotes.Models;
 
-public class EmoteSet : Emote
+internal class EmoteSet : Emote
 {
     /// <summary>
     /// <para>The type of emote. The possible values are:</para>
     /// <para>bitstier | follower | subscriptions</para>
     /// </summary>
     [JsonPropertyName("emote_type")]
-    public string? EmoteType { get; init; }
+    public EmoteType? EmoteType { get; init; }
     /// <summary>
     /// <para>An ID that identifies the emote set that the emote belongs to.</para>
     /// </summary>

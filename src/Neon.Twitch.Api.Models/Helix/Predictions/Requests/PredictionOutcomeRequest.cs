@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace Neon.Twitch.Api.Models.Helix.Predictions.Requests;
 
-public class PredictionOutcomeRequest
+internal class PredictionOutcomeRequest
 {
     /// <summary>
     /// <para>The text of one of the outcomes that the viewer may select. The title is limited to a maximum of 25 characters.</para>
@@ -11,5 +11,5 @@ public class PredictionOutcomeRequest
     [JsonPropertyName("title")]
     [Required]
     [MaxLength(25)]
-    public string? Title { get; set; }
+    public string? Title { get; init; }
 }

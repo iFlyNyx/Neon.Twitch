@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Moderation.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Models;
 
-public class AutomodSettings
+internal class AutomodSettings
 {
     /// <summary>
     /// <para>The broadcaster’s ID.</para>
@@ -18,45 +19,45 @@ public class AutomodSettings
     /// <para>The default AutoMod level for the broadcaster. This field is null if the broadcaster has set one or more of the individual settings.</para>
     /// </summary>
     [JsonPropertyName("overall_level")]
-    public int? OverallLevel { get; init; }
+    public AutomodLevel? OverallLevel { get; init; }
     /// <summary>
     /// <para>The Automod level for discrimination against disability.</para>
     /// </summary>
     [JsonPropertyName("disability")]
-    public int? Disability { get; init; }
+    public AutomodLevel? Disability { get; init; }
     /// <summary>
     /// <para>The Automod level for hostility involving aggression.</para>
     /// </summary>
     [JsonPropertyName("aggression")]
-    public int? Aggression { get; init; }
+    public AutomodLevel? Aggression { get; init; }
     /// <summary>
     /// <para>The AutoMod level for discrimination based on sexuality, sex, or gender.</para>
     /// </summary>
     [JsonPropertyName("sexuality_sex_or_gender")]
-    public int? SexualitySexOrGender { get; init; }
+    public AutomodLevel? SexualitySexOrGender { get; init; }
     /// <summary>
     /// <para>The Automod level for discrimination against women.</para>
     /// </summary>
     [JsonPropertyName("misogyny")]
-    public int? Misogyny { get; init; }
+    public AutomodLevel? Misogyny { get; init; }
     /// <summary>
     /// <para>The Automod level for hostility involving name calling or insults.</para>
     /// </summary>
     [JsonPropertyName("bullying")]
-    public int? Bullying { get; init; }
+    public AutomodLevel? Bullying { get; init; }
     /// <summary>
     /// <para>The Automod level for profanity.</para>
     /// </summary>
     [JsonPropertyName("swearing")]
-    public int? Swearing { get; init; }
+    public AutomodLevel? Swearing { get; init; }
     /// <summary>
     /// <para>The Automod level for racial discrimination.</para>
     /// </summary>
     [JsonPropertyName("race_ethnicity_or_religion")]
-    public int? RaceEthnicityOrReligion { get; init; }
+    public AutomodLevel? RaceEthnicityOrReligion { get; init; }
     /// <summary>
     /// <para>The Automod level for sexual content.</para>
     /// </summary>
     [JsonPropertyName("sex_based_terms")]
-    public int? SexBasedTerms { get; init; }
+    public AutomodLevel? SexBasedTerms { get; init; }
 }

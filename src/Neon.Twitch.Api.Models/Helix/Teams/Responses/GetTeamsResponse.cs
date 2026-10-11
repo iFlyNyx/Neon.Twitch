@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Teams.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Teams.Responses;
 
-public class GetTeamsResponse
+internal class GetTeamsResponse
 {
     /// <summary>
     /// <para>A list that contains the single team that you requested.</para>

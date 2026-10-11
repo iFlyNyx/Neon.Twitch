@@ -2,11 +2,11 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Requests;
 
-public class WarnUserWarningRequest
+internal class WarnUserWarningRequest
 {
     /// <summary>
     /// <para>A list that contains information about the warning.</para>
     /// </summary>
     [JsonPropertyName("data")]
-    public UserWarningRequest? Request { get; set; }
+    public UserWarningRequest? Request { get; init; }
 }

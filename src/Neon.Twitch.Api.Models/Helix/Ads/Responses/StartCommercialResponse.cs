@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Ads.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Ads.Responses;
 
-public class StartCommercialResponse
+internal class StartCommercialResponse
 {
     /// <summary>
     /// <para>An array that contains a single object with the status of your start commercial request.</para>

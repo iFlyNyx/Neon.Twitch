@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.GuestStar.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.GuestStar.Responses;
 
-public class EndGuestStarSessionResponse
+internal class EndGuestStarSessionResponse
 {
     /// <summary>
     /// <para>Summary of the session details when the session was ended.</para>

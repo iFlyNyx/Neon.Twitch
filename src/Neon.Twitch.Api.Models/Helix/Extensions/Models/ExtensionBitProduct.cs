@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class ExtensionBitProduct
+internal class ExtensionBitProduct
 {
     /// <summary>
     /// <para>The product’s SKU. The SKU is unique across an extension’s products.</para>

@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Entitlements.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Entitlements.Models;
 
-public class DropEntitlementStatus
+internal class DropEntitlementStatus
 {
     /// <summary>
     /// <para>A string that indicates whether the status of the entitlements in the ids field were successfully updated. Possible values are:</para>
@@ -13,7 +14,7 @@ public class DropEntitlementStatus
     /// <para>UPDATE_FAILED — The update failed. These are considered transient errors and the request should be retried later.</para>
     /// </summary>
     [JsonPropertyName("status")]
-    public string? Status { get; init; }
+    public EntitlementStatus? Status { get; init; }
     /// <summary>
     /// <para>The list of entitlements that the status in the status field applies to.</para>
     /// </summary>

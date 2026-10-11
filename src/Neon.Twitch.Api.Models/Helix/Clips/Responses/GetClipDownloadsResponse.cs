@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Clips.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Clips.Responses;
 
-public class GetClipDownloadsResponse
+internal class GetClipDownloadsResponse
 {
     /// <summary>
     /// <para>List of clips and their download URLs.</para>

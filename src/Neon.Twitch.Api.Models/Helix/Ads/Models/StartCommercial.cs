@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Ads.Models;
 
-public class StartCommercial
+internal class StartCommercial
 {
     /// <summary>
     /// <para>The length of the commercial you requested. If you request a commercial that’s longer than 180 seconds, the API uses 180 seconds.</para>

@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Models;
 
-public class UserChatColor
+internal class UserChatColor
 {
     /// <summary>
     /// <para>An ID that uniquely identifies the user.</para>

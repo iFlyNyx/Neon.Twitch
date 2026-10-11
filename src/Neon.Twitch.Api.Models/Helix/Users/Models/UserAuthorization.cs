@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Users.Models;
 
-public class UserAuthorization
+internal class UserAuthorization
 {
     /// <summary>
     /// <para>The user’s ID.</para>

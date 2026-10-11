@@ -1,15 +1,16 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Extensions.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class ExtensionConfiguration
+internal class ExtensionConfiguration
 {
     /// <summary>
     /// <para>The type of segment. Possible values are: </para>
     /// <para>broadcaster | developer | global</para>
     /// </summary>
     [JsonPropertyName("segment")]
-    public string? Segment { get; init; }
+    public ExtensionConfigurationSegment? Segment { get; init; }
     /// <summary>
     /// <para>The ID of the broadcaster that installed the extension. The object includes this field only if the segment query parameter is set to developer or broadcaster.</para>
     /// </summary>

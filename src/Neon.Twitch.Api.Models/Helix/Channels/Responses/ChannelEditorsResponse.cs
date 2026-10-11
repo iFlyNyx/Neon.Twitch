@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Channels.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Channels.Responses;
 
-public class ChannelEditorsResponse
+internal class ChannelEditorsResponse
 {
     /// <summary>
     /// <para></para>

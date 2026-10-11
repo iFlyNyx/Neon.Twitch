@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Extensions.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class Extension
+internal class Extension
 {
     /// <summary>
     /// <para>The name of the user or organization that owns the extension.</para>
@@ -27,7 +28,7 @@ public class Extension
     /// <para>none — The extension doesn't require configuration.</para>
     /// </summary>
     [JsonPropertyName("configuration_location")]
-    public string? ConfigurationLocation { get; init; }
+    public ExtensionConfigurationLocation? ConfigurationLocation { get; init; }
     /// <summary>
     /// <para>A longer description of the extension. It appears on the details page.</para>
     /// </summary>
@@ -83,14 +84,14 @@ public class Extension
     /// <para>Approved | AssetsUploaded | Deleted | Deprecated | InReview | InTest | PendingAction | Rejected | Released</para>
     /// </summary>
     [JsonPropertyName("state")]
-    public string? State { get; init; }
+    public ExtensionState? State { get; init; }
     /// <summary>
     /// <para>Indicates whether the extension can view the user’s subscription level on the channel that the extension is installed on. Possible values are:</para>
     /// <para>none — The extension can't view the user’s subscription level.</para>
     /// <para>optional — The extension can view the user’s subscription level.</para>
     /// </summary>
     [JsonPropertyName("subscriptions_support_level")]
-    public string? SubscriptionsSupportLevel { get; init; }
+    public ExtensionSupportLevel? SubscriptionsSupportLevel { get; init; }
     /// <summary>
     /// <para>A short description of the extension that streamers see when hovering over the discovery splash screen in the Extensions manager.</para>
     /// </summary>

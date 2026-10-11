@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Moderation.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Models;
 
-public class UnbanRequest
+internal class UnbanRequest
 {
     /// <summary>
     /// <para>Unban request ID.</para>
@@ -64,7 +65,7 @@ public class UnbanRequest
     /// <para>pending | approved | denied | acknowledged | canceled</para>
     /// </summary>
     [JsonPropertyName("status")]
-    public string? Status { get; init; }
+    public UnbanRequestStatus? Status { get; init; }
     /// <summary>
     /// <para>Timestamp of when the unban request was created.</para>
     /// </summary>

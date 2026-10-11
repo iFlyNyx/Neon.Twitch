@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Chat.Emotes.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Emotes.Responses;
 
-public class GetEmoteSetResponse
+internal class GetEmoteSetResponse
 {
     /// <summary>
     /// <para>The list of emotes found in the specified emote sets. The list is empty if none of the IDs were found. The list is in the same order as the set IDs specified in the request. Each set contains one or more emoticons.</para>

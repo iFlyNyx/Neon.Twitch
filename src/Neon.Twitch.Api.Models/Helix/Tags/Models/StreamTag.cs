@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Tags.Models;
 
-public class StreamTag
+internal class StreamTag
 {
     /// <summary>
     /// <para>An ID that identifies this tag.</para>

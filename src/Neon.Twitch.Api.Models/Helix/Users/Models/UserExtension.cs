@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Users.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Users.Models;
 
-public class UserExtension
+internal class UserExtension
 {
     /// <summary>
     /// <para>An ID that identifies the extension.</para>
@@ -29,5 +30,5 @@ public class UserExtension
     /// <para>component | mobile | overlay | panel</para>
     /// </summary>
     [JsonPropertyName("type")]
-    public List<string>? Types { get; init; }
+    public List<UserExtensionType>? Types { get; init; }
 }

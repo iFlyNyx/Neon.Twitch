@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Clips.Models;
 
-public class CreatedClip
+internal class CreatedClip
 {
     /// <summary>
     /// <para>An ID that uniquely identifies the clip.</para>

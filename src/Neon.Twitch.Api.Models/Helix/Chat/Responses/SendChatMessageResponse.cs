@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Chat.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Responses;
 
-public class SendChatMessageResponse
+internal class SendChatMessageResponse
 {
     /// <summary>
     /// <para>Details about a sent chat message</para>

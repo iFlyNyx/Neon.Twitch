@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Models;
 
-public class SentChatMessage
+internal class SentChatMessage
 {
     /// <summary>
     /// <para>The message id for the message that was sent.</para>

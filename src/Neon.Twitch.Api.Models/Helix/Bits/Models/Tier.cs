@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Bits.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Bits.Models;
 
-public class Tier
+internal class Tier
 {
     /// <summary>
     /// <para>The minimum number of Bits that you must cheer at this tier level. The maximum number of Bits that you can cheer at this level is determined by the required minimum Bits of the next tier level minus 1. For example, if min_bits is 1 and min_bits for the next tier is 100, the Bits range for this tier level is 1 through 99. The minimum Bits value of the last tier is the maximum number of Bits you can cheer using this Cheermote. For example, 10000.</para>
@@ -14,7 +15,7 @@ public class Tier
     /// <para>1|100|500|1000|5000|10000|100000</para>
     /// </summary>
     [JsonPropertyName("id")]
-    public string? Id { get; init; }
+    public BitsIdTier? Id { get; init; }
     /// <summary>
     /// <para>The hex code of the color associated with this tier level (for example, #979797).</para>
     /// </summary>

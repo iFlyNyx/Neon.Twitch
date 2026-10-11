@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Bits.Models;
 
-public class BitLeaderboardUser
+internal class BitLeaderboardUser
 {
     /// <summary>
     /// <para>An ID that identifies a user on the leaderboard.</para>

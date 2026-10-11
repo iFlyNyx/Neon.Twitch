@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Polls.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Polls.Models;
 
-public class Poll
+internal class Poll
 {
     /// <summary>
     /// <para>An ID that identifies the poll.</para>
@@ -64,7 +65,7 @@ public class Poll
     /// <para>INVALID — Something went wrong while determining the state.</para>
     /// </summary>
     [JsonPropertyName("status")]
-    public string? Status { get; init; }
+    public PollStatus? Status { get; init; }
     /// <summary>
     /// <para>The length of time (in seconds) that the poll will run for.</para>
     /// </summary>

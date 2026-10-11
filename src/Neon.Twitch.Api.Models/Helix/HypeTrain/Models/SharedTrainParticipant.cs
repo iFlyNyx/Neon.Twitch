@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.HypeTrain.Models;
 
-public class SharedTrainParticipant
+internal class SharedTrainParticipant
 {
     /// <summary>
     /// <para>The broadcaster ID.</para>

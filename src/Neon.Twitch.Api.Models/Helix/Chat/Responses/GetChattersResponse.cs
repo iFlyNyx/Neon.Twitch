@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Responses;
 
-public class GetChattersResponse
+internal class GetChattersResponse
 {
     /// <summary>
     /// <para>The list of users that are connected to the broadcaster’s chat room. The list is empty if no users are connected to the chat room.</para>

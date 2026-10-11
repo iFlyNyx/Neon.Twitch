@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace Neon.Twitch.Api.Models.Helix.CCL.Models;
 
-public class PatchContentLabel
+internal class PatchContentLabel
 {
     /// <summary>
     /// <para>ID of the <see href="https://help.twitch.tv/s/article/content-classification-labels">Content Classification Labels</see> that must be added/removed from the channel. Can be one of the following values:</para>
@@ -16,11 +16,11 @@ public class PatchContentLabel
     /// </summary>
     [JsonPropertyName("id")]
     [Required]
-    public string? Id { get; set; }
+    public string? Id { get; init; }
     /// <summary>
     /// <para>Boolean flag indicating whether the label should be enabled (true) or disabled for the channel.</para>
     /// </summary>
     [JsonPropertyName("is_enabled")]
     [Required]
-    public bool? IsEnabled { get; set; }
+    public bool? IsEnabled { get; init; }
 }

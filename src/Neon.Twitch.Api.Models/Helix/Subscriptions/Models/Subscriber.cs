@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Subscriptions.Models;
 
-public class Subscriber : UserSubscription
+internal class Subscriber : UserSubscription
 {
     /// <summary>
     /// <para>The name of the subscription.</para>

@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Models;
 
-public class BlockedTerm
+internal class BlockedTerm
 {
     /// <summary>
     /// <para>The broadcaster that owns the list of blocked terms.</para>

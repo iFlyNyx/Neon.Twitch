@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Schedule.Models;
 
-public class Vacation
+internal class Vacation
 {
     /// <summary>
     /// <para>The UTC date and time (in RFC3339 format) of when the broadcaster’s vacation starts.</para>

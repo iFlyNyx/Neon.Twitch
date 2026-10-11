@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.GuestStar.Models;
 
-public class GuestStarSession
+internal class GuestStarSession
 {
     /// <summary>
     /// <para>ID uniquely representing the Guest Star session.</para>

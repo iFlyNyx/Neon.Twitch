@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Users.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Users.Models;
 
-public class User
+internal class User
 {
     /// <summary>
     /// <para>An ID that identifies the user.</para>
@@ -24,13 +25,13 @@ public class User
     /// <para>admin | global_mod | staff | "" (normal user)</para>
     /// </summary>
     [JsonPropertyName("type")]
-    public string? Type { get; init; }
+    public UserType? Type { get; init; }
     /// <summary>
     /// <para>The type of broadcaster. Possible values are: </para>
     /// <para>affiliate | partner | "" (normal broadcaster)</para>
     /// </summary>
     [JsonPropertyName("broadcaster_type")]
-    public string? BroadcasterType { get; init; }
+    public UserBroadcasterType? BroadcasterType { get; init; }
     /// <summary>
     /// <para>The user’s description of their channel.</para>
     /// </summary>

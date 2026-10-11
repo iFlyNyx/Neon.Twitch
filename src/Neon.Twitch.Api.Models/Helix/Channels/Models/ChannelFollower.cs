@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Channels.Models;
 
-public class ChannelFollower
+internal class ChannelFollower
 {
     /// <summary>
     /// <para>The UTC timestamp when the user started following the broadcaster.</para>

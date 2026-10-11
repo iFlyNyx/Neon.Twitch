@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.GuestStar.Models;
 
-public class Guest
+internal class Guest
 {
     /// <summary>
     /// <para>ID representing this guest’s slot assignment. </para>

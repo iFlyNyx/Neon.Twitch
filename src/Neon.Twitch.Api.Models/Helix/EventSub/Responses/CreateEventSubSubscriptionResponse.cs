@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.EventSub.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.EventSub.Responses;
 
-public class CreateEventSubSubscriptionResponse
+internal class CreateEventSubSubscriptionResponse
 {
     /// <summary>
     /// <para>A list that contains the single subscription that you created.</para>

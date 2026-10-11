@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Badges.Models;
 
-public class BadgeVersion
+internal class BadgeVersion
 {
     /// <summary>
     /// <para>An ID that identifies this version of the badge. The ID can be any value. For example, for Bits, the ID is the Bits tier level, but for World of Warcraft, it could be Alliance or Horde.</para>

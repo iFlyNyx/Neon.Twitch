@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.HypeTrain.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.HypeTrain.Responses;
 
-public class GetHypeTrainStatusResponse
+internal class GetHypeTrainStatusResponse
 {
     /// <summary>
     /// <para>A list that contains information related to the channel’s Hype Train.</para>

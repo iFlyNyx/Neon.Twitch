@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Extensions.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class Cost
+internal class Cost
 {
     /// <summary>
     /// <para>The product’s price.</para>
@@ -14,5 +15,5 @@ public class Cost
     /// <para>bits</para>
     /// </summary>
     [JsonPropertyName("type")]
-    public string? Type { get; init; }
+    public ExtensionType? Type { get; init; }
 }

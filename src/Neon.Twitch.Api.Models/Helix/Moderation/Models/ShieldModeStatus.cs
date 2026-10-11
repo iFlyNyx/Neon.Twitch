@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Models;
 
-public class ShieldModeStatus
+internal class ShieldModeStatus
 {
     /// <summary>
     /// <para>A Boolean value that determines whether Shield Mode is active. Is true if Shield Mode is active; otherwise, false.</para>

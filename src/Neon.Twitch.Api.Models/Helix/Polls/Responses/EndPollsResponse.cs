@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Polls.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Polls.Responses;
 
-public class EndPollsResponse
+internal class EndPollsResponse
 {
     /// <summary>
     /// <para>A list that contains the poll that you ended.</para>

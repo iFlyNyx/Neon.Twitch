@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.ChannelPoints.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.ChannelPoints.Responses;
 
-public class UpdateCustomRewardRedemptionResponse
+internal class UpdateCustomRewardRedemptionResponse
 {
     /// <summary>
     /// <para>The list contains the single redemption that you updated.</para>

@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.ChannelPoints.Models;
 
-public class CustomReward
+internal class CustomReward
 {
     /// <summary>
     /// <para>The ID that uniquely identifies the broadcaster.</para>

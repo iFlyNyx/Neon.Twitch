@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class ProductData
+internal class ProductData
 {
     /// <summary>
     /// <para>An ID that identifies the digital product.</para>

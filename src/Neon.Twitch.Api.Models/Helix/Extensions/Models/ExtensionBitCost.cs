@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class ExtensionBitCost
+internal class ExtensionBitCost
 {
     /// <summary>
     /// <para>The product’s price.</para>

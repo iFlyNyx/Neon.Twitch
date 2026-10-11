@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Models;
 
-public class Chatter
+internal class Chatter
 {
     /// <summary>
     /// <para>The ID of a user that’s connected to the broadcaster’s chat room.</para>

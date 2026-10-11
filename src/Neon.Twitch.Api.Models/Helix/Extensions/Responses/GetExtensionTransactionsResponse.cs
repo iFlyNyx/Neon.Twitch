@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Responses;
 
-public class GetExtensionTransactionsResponse
+internal class GetExtensionTransactionsResponse
 {
     /// <summary>
     /// <para>The list of transactions.</para>

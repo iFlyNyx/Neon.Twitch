@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Models;
 
-public class UserBan
+internal class UserBan
 {
     /// <summary>
     /// <para>The broadcaster whose chat room the user was banned from chatting in.</para>

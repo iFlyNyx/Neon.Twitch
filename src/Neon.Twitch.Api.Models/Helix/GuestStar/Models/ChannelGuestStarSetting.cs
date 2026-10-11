@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.GuestStar.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.GuestStar.Models;
 
-public class ChannelGuestStarSetting
+internal class ChannelGuestStarSetting
 {
     /// <summary>
     /// <para>Flag determining if Guest Star moderators have access to control whether a guest is live once assigned to a slot.</para>
@@ -25,7 +26,7 @@ public class ChannelGuestStarSetting
     /// <para>SCREENSHARE_LAYOUT: All live guests are tiled within the browser source with the same size. If there is an active screen share, it is sized larger than the other guests.</para>
     /// </summary>
     [JsonPropertyName("group_layout")]
-    public string? GroupLayout { get; init; }
+    public GroupLayout? GroupLayout { get; init; }
     /// <summary>
     /// <para>View only token to generate browser source URLs</para>
     /// </summary>

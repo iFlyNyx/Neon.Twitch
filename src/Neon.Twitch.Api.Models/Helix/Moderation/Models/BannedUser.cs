@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Models;
 
-public class BannedUser
+internal class BannedUser
 {
     /// <summary>
     /// <para>The ID of the banned user.</para>

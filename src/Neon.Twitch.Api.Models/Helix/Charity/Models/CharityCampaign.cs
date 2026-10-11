@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Charity.Models;
 
-public class CharityCampaign
+internal class CharityCampaign
 {
     /// <summary>
     /// <para>An ID that identifies the charity campaign.</para>

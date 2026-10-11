@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Neon.Twitch.Api.Models.Helix.ChannelPoints.Models;
+namespace Neon.Twitch.Api.Models.Helix.Shared;
 
-public class MaxPerUserPerStreamSetting
+internal class MaxPerUserPerStreamSetting
 {
     /// <summary>
     /// <para>A Boolean value that determines whether the reward applies a limit on the number of redemptions allowed per user per live stream. Is true if the reward applies a limit.</para>

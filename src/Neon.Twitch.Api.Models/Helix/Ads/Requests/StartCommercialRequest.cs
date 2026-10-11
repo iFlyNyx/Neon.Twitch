@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace Neon.Twitch.Api.Models.Helix.Ads.Requests;
 
-public class StartCommercialRequest
+internal class StartCommercialRequest
 {
     /// <summary>
     /// <para>The ID of the partner or affiliate broadcaster that wants to run the commercial. This ID must match the user ID found in the OAuth token.</para>
@@ -16,5 +16,5 @@ public class StartCommercialRequest
     /// </summary>
     [JsonPropertyName("length")]
     [Required]
-    public int? Length { get; set; }
+    public int? Length { get; init; }
 }

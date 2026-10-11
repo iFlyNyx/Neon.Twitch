@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.CCL.Models;
 
-public class ContentLabel
+internal class ContentLabel
 {
     /// <summary>
     /// <para>Unique identifier for the CCL.</para>

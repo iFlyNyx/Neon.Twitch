@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Chat.Emotes.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Emotes.Responses;
 
-public class GetChannelEmotesResponse
+internal class GetChannelEmotesResponse
 {
     /// <summary>
     /// <para>The list of emotes that the specified broadcaster created. If the broadcaster hasn't created custom emotes, the list is empty.</para>

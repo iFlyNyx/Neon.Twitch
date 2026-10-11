@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Users.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Users.Responses;
 
-public class GetUsersResponse
+internal class GetUsersResponse
 {
     /// <summary>
     /// <para>The list of users.</para>

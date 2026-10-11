@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.CCL.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.CCL.Responses;
 
-public class GetContentClassificationLabelsResponse
+internal class GetContentClassificationLabelsResponse
 {
     /// <summary>
     /// <para>A list that contains information about the available content classification labels.</para>

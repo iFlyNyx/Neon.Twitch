@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class Config
+internal class Config
 {
     /// <summary>
     /// <para>The HTML file shown to broadcasters while they are configuring your extension within the Extension Manager.</para>

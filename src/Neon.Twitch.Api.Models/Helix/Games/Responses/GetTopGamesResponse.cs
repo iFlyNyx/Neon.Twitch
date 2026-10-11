@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Games.Responses;
 
-public class GetTopGamesResponse
+internal class GetTopGamesResponse
 {
     /// <summary>
     /// <para>The list of broadcasts. The broadcasts are sorted by the number of viewers, with the most popular first.</para>

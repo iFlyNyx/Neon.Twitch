@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Streams.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Streams.Responses;
 
-public class GetStreamMarkersResponse
+internal class GetStreamMarkersResponse
 {
     /// <summary>
     /// <para>The list of markers grouped by the user that created the marks.</para>

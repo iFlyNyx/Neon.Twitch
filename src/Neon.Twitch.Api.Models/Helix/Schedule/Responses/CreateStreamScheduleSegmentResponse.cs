@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Schedule.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Schedule.Responses;
 
-public class CreateStreamScheduleSegmentResponse
+internal class CreateStreamScheduleSegmentResponse
 {
     /// <summary>
     /// <para>The broadcaster’s streaming scheduled.</para>

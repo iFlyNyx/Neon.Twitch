@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Entitlements.Models;
 
-public class DropEntitlement
+internal class DropEntitlement
 {
     /// <summary>
     /// <para>An ID that identifies the entitlement.</para>

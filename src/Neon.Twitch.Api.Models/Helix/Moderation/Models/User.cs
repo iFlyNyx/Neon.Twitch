@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Models;
 
-public class User
+internal class User
 {
     /// <summary>
     /// <para>The ID of the user that has permission to moderate the broadcaster’s channel.</para>

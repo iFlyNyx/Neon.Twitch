@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Schedule.Models;
 
-public class Segment
+internal class Segment
 {
     /// <summary>
     /// <para>An ID that identifies this broadcast segment.</para>

@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Users.Models;
 
-public class UserOverlay
+internal class UserOverlay
 {
     /// <summary>
     /// <para>A Boolean value that determines the extension’s activation state. If false, the user has not configured this overlay extension.</para>

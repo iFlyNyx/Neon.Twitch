@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Responses;
 
-public class GetExtensionLiveChannelsResponse
+internal class GetExtensionLiveChannelsResponse
 {
     /// <summary>
     /// <para>The list of broadcasters that are streaming live and that have installed or activated the extension.</para>

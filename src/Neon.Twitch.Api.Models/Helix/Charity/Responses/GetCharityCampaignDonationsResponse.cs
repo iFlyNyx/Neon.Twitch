@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Charity.Responses;
 
-public class GetCharityCampaignDonationsResponse
+internal class GetCharityCampaignDonationsResponse
 {
     /// <summary>
     /// <para>A list that contains the donations that users have made to the broadcaster’s charity campaign. The list is empty if the broadcaster is not currently running a charity campaign; the donation information is not available after the campaign ends.</para>

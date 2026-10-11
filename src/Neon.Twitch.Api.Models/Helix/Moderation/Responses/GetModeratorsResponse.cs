@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Responses;
 
-public class GetModeratorsResponse
+internal class GetModeratorsResponse
 {
     /// <summary>
     /// <para>The list of moderators.</para>

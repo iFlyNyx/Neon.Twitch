@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Chat.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Responses;
 
-public class GetSharedChatSessionResponse
+internal class GetSharedChatSessionResponse
 {
     /// <summary>
     /// <para>Details about a shared chat session, including the shared chat session owner and connected participants</para>

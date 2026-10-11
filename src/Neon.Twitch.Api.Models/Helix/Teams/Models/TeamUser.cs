@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Teams.Models;
 
-public class TeamUser
+internal class TeamUser
 {
     /// <summary>
     /// <para>An ID that identifies the team member.</para>

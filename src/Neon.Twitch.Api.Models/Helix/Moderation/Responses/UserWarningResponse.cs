@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Moderation.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Responses;
 
-public class UserWarningResponse
+internal class UserWarningResponse
 {
     /// <summary>
     /// <para>A list that contains information about the warning.</para>

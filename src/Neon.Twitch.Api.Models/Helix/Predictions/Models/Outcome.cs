@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Predictions.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Predictions.Models;
 
-public class Outcome
+internal class Outcome
 {
     /// <summary>
     /// <para>An ID that identifies this outcome.</para>
@@ -34,5 +35,5 @@ public class Outcome
     /// <para>If the number of outcomes is two, the color is BLUE for the first outcome and PINK for the second outcome. If there are more than two outcomes, the color is BLUE for all outcomes.</para>
     /// </summary>
     [JsonPropertyName("color")]
-    public string? Color { get; init; }
+    public PredictionColor? Color { get; init; }
 }

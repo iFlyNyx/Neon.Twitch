@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Emotes.Models;
 
-public class GlobalEmote : Emote
+internal class GlobalEmote : Emote
 {
     /// <summary>
     /// <para>The image URLs for the emote. These image URLs always provide a static, non-animated emote image with a light background.</para>

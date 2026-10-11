@@ -1,9 +1,10 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Chat.Enums;
 using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Emotes.Models;
 
-public class ChannelEmote : Emote
+internal class ChannelEmote : Emote
 {
     /// <summary>
     /// <para>The subscriber tier at which the emote is unlocked. This field contains the tier information only if emote_type is set to subscriptions, otherwise, it's an empty string.</para>
@@ -15,7 +16,7 @@ public class ChannelEmote : Emote
     /// <para>bitstier | follower | subscriptions</para>
     /// </summary>
     [JsonPropertyName("emote_type")]
-    public string? EmoteType { get; init; }
+    public EmoteType? EmoteType { get; init; }
     /// <summary>
     /// <para>An ID that identifies the emote set that the emote belongs to.</para>
     /// </summary>

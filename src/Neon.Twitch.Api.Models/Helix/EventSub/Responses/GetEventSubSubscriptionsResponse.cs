@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.EventSub.Responses;
 
-public class GetEventSubSubscriptionsResponse
+internal class GetEventSubSubscriptionsResponse
 {
     /// <summary>
     /// <para>The list of subscriptions. The list is ordered by the oldest subscription first. The list is empty if the client hasn't created subscriptions or there are no subscriptions that match the specified filter criteria.</para>

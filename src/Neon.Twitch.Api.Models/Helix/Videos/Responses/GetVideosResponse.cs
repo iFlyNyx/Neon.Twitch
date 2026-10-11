@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Videos.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Videos.Responses;
 
-public class GetVideosResponse
+internal class GetVideosResponse
 {
     /// <summary>
     /// <para>The list of published videos that match the filter criteria.</para>

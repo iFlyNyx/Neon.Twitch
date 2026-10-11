@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Goals.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Goals.Responses;
 
-public class GetCreatorGoalsResponse
+internal class GetCreatorGoalsResponse
 {
     /// <summary>
     /// <para>The list of goals. The list is empty if the broadcaster hasn’t created goals.</para>

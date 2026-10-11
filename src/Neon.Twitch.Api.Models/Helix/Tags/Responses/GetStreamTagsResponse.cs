@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Tags.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Tags.Responses;
 
-public class GetStreamTagsResponse
+internal class GetStreamTagsResponse
 {
     /// <summary>
     /// <para>The list of stream tags. The list is empty if the broadcaster or Twitch hasn’t added tags to the broadcaster’s channel.</para>

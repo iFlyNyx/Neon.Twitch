@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Schedule.Responses;
 
-public class GetStreamScheduleResponse
+internal class GetStreamScheduleResponse
 {
     /// <summary>
     /// <para>The broadcaster’s streaming schedule.</para>

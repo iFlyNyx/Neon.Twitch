@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Responses;
 
-public class GetVipsResponse
+internal class GetVipsResponse
 {
     /// <summary>
     /// <para>The list of VIPs. The list is empty if the broadcaster doesn’t have VIP users.</para>

@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.EventSub.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.EventSub.Models;
 
-public class EventSubSubscription
+internal class EventSubSubscription
 {
     /// <summary>
     /// <para>An ID that identifies the subscription.</para>
@@ -29,7 +30,7 @@ public class EventSubSubscription
     /// <para>websocket_network_error — The Twitch WebSocket server experienced a network error writing the message to the client.</para>
     /// </summary>
     [JsonPropertyName("status")]
-    public string? Status { get; init; }
+    public SubscriptionStatus? Status { get; init; }
     /// <summary>
     /// <para>The subscription’s type. See <see href="https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types#subscription-types">Subscription Types</see>.</para>
     /// </summary>

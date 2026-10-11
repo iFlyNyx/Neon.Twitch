@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Channels.Responses;
 
-public class GetFollowedChannelsResponse
+internal class GetFollowedChannelsResponse
 {
     /// <summary>
     /// <para>The list of broadcasters that the user follows. The list is in descending order by followed_at (with the most recently followed broadcaster first). The list is empty if the user doesn't follow anyone.</para>

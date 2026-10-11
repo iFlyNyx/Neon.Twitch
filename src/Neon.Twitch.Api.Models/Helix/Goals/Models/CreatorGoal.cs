@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Goals.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Goals.Models;
 
-public class CreatorGoal
+internal class CreatorGoal
 {
     /// <summary>
     /// <para>An ID that identifies this goal.</para>
@@ -31,9 +32,11 @@ public class CreatorGoal
     /// <para>subscription_count — The goal is to increase subscriptions. This type shows the net increase or decrease in the number of subscriptions.</para>
     /// <para>new_subscription — The goal is to increase subscriptions. This type shows only the net increase in tier points associated with the subscriptions (it does not account for users that unsubscribed since the goal started).</para>
     /// <para>new_subscription_count — The goal is to increase subscriptions. This type shows only the net increase in the number of subscriptions (it does not account for users that unsubscribed since the goal started).</para>
+    /// <para>new_bit — The goal is to increase the amount of Bits used on the channel.</para>
+    /// <para>new_cheerer — The goal is to increase the amount of unique Cheerers on to Cheer on the channel.</para>
     /// </summary>
     [JsonPropertyName("type")]
-    public string? Type { get; init; }
+    public GoalType? Type { get; init; }
     /// <summary>
     /// <para>A description of the goal. Is an empty string if not specified.</para>
     /// </summary>

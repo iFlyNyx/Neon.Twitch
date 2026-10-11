@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Polls.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Polls.Responses;
 
-public class CreatePollResponse
+internal class CreatePollResponse
 {
     /// <summary>
     /// <para>A list that contains the single poll that you created.</para>

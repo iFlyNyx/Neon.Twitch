@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Predictions.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Predictions.Models;
 
-public class Prediction
+internal class Prediction
 {
     /// <summary>
     /// <para>An ID that identifies this prediction.</para>
@@ -52,7 +53,7 @@ public class Prediction
     /// <para>RESOLVED — The winning outcome was determined and the Channel Points were distributed to the viewers who predicted the correct outcome.</para>
     /// </summary>
     [JsonPropertyName("status")]
-    public string? Status { get; init; }
+    public PredictionStatus? Status { get; init; }
     /// <summary>
     /// <para>The UTC date and time of when the Prediction began.</para>
     /// </summary>

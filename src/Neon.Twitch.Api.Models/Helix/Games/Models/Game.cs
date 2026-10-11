@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Games.Models;
 
-public class Game
+internal class Game
 {
     /// <summary>
     /// <para>An ID that identifies the category or game.</para>

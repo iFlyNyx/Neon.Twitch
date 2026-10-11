@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Responses;
 
-public class GetModeratedChannelsResponse
+internal class GetModeratedChannelsResponse
 {
     /// <summary>
     /// <para>The list of channels that the user has moderator privileges in.</para>

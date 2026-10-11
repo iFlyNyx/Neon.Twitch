@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Entitlements.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Entitlements.Responses;
 
-public class UpdateDropEntitlementStatusResponse
+internal class UpdateDropEntitlementStatusResponse
 {
     /// <summary>
     /// <para>A list that indicates which entitlements were successfully updated and those that weren’t.</para>

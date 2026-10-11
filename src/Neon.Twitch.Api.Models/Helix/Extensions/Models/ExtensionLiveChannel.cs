@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class ExtensionLiveChannel
+internal class ExtensionLiveChannel
 {
     /// <summary>
     /// <para>The ID of the broadcaster that is streaming live and has installed or activated the extension.</para>

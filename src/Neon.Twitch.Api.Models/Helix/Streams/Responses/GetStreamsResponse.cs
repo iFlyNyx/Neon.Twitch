@@ -4,7 +4,7 @@ using Stream = Neon.Twitch.Api.Models.Helix.Streams.Models.Stream;
 
 namespace Neon.Twitch.Api.Models.Helix.Streams.Responses;
 
-public class GetStreamsResponse
+internal class GetStreamsResponse
 {
     /// <summary>
     /// <para>The list of streams.</para>

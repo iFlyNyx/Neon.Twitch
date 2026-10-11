@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class Component
+internal class Component
 {
     /// <summary>
     /// <para>The HTML file that is shown to viewers on the channel page when the extension is activated in a Video - Component slot.</para>

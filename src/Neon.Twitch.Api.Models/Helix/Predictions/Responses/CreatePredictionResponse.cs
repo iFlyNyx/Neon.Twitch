@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Predictions.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Predictions.Responses;
 
-public class CreatePredictionResponse
+internal class CreatePredictionResponse
 {
     /// <summary>
     /// <para>A list that contains the single prediction that you created.</para>

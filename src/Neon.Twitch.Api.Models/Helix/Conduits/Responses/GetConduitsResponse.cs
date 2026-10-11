@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Conduits.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Conduits.Responses;
 
-public class GetConduitsResponse
+internal class GetConduitsResponse
 {
     /// <summary>
     /// <para>List of information about the client’s conduits.</para>

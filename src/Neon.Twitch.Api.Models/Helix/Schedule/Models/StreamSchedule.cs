@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Schedule.Models;
 
-public class StreamSchedule
+internal class StreamSchedule
 {
     /// <summary>
     /// <para>The list of broadcasts in the broadcaster’s streaming schedule.</para>

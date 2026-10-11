@@ -1,8 +1,10 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Enums.Shared;
+using Neon.Twitch.Api.Models.Helix.CCL.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Channels.Models;
 
-public class ChannelInformation
+internal class ChannelInformation
 {
     /// <summary>
     /// <para>An ID that uniquely identifies the broadcaster.</para>
@@ -23,7 +25,7 @@ public class ChannelInformation
     /// <para>The broadcaster’s preferred language. The value is an ISO 639-1 two-letter language code (for example, en for English). The value is set to “other” if the language is not a Twitch supported language.</para>
     /// </summary>
     [JsonPropertyName("broadcaster_language")]
-    public string? BroadcasterLanguage { get; init; }
+    public Languages? BroadcasterLanguage { get; init; }
     /// <summary>
     /// <para>The name of the game that the broadcaster is playing or last played. The value is an empty string if the broadcaster has never played a game.</para>
     /// </summary>
@@ -53,7 +55,7 @@ public class ChannelInformation
     /// <para>The CCLs applied to the channel.</para>
     /// </summary>
     [JsonPropertyName("content_classification_labels")]
-    public List<string>? ContentClassificationLabels { get; init; }
+    public List<CCLType>? ContentClassificationLabels { get; init; }
     /// <summary>
     /// <para>Boolean flag indicating if the channel has branded content.</para>
     /// </summary>

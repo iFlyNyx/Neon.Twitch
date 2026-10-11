@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Bits.Models;
 
-public class Images
+internal class Images
 {
     [JsonPropertyName("dark")]
     public ImageCollection? Dark { get; init; }

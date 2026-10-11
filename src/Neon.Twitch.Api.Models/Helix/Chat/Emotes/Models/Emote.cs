@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.Chat.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Emotes.Models;
 
-public abstract class Emote
+internal abstract class Emote
 {
     /// <summary>
     /// <para>An ID that identifies this emote.</para>
@@ -19,17 +20,17 @@ public abstract class Emote
     /// <para>animated | static</para>
     /// </summary>
     [JsonPropertyName("format")]
-    public List<string>? Formats { get; init; }
+    public List<EmoteFormat>? Formats { get; init; }
     /// <summary>
     /// <para>The sizes that the emote is available in. For example, if the emote is available in small and medium sizes, the array contains 1.0 and 2.0. Possible sizes are:</para>
     /// <para>1.0 (28x28px) | 2.0 (56x56px) | 3.0 (112x112px)</para>
     /// </summary>
     [JsonPropertyName("scale")]
-    public List<string>? Scales { get; init; }
+    public List<EmoteScale>? Scales { get; init; }
     /// <summary>
     /// <para>The background themes that the emote is available in. Possible themes are:</para>
     /// <para>dark | light</para>
     /// </summary>
     [JsonPropertyName("theme_mode")]
-    public List<string>? Themes { get; init; }
+    public List<EmoteTheme>? Themes { get; init; }
 }

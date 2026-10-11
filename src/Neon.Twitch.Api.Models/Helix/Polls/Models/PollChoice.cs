@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Polls.Models;
 
-public class PollChoice
+internal class PollChoice
 {
     /// <summary>
     /// <para>An ID that identifies this choice.</para>

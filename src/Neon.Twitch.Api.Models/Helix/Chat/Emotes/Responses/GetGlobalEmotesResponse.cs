@@ -3,7 +3,7 @@ using Neon.Twitch.Api.Models.Helix.Chat.Emotes.Models;
 
 namespace Neon.Twitch.Api.Models.Helix.Chat.Emotes.Responses;
 
-public class GetGlobalEmotesResponse
+internal class GetGlobalEmotesResponse
 {
     /// <summary>
     /// <para>The list of global emotes.</para>

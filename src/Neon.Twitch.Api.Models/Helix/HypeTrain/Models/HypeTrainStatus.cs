@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.HypeTrain.Models;
 
-public class HypeTrainStatus
+internal class HypeTrainStatus
 {
     /// <summary>
     /// <para>An object describing the current Hype Train. Null if a Hype Train is not active.</para>

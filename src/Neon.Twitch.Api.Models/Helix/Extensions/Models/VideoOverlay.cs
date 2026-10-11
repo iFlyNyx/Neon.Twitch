@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Extensions.Models;
 
-public class VideoOverlay
+internal class VideoOverlay
 {
     /// <summary>
     /// <para>The HTML file that is shown to viewers on the channel page when the extension is activated on the Video - Overlay slot.</para>

@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Models;
 
-public class UserWarning
+internal class UserWarning
 {
     /// <summary>
     /// <para>The ID of the channel in which the warning will take effect.</para>

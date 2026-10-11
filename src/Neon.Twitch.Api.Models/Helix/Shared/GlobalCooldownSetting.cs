@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Neon.Twitch.Api.Models.Helix.ChannelPoints.Models;
+namespace Neon.Twitch.Api.Models.Helix.Shared;
 
-public class GlobalCooldownSetting
+internal class GlobalCooldownSetting
 {
     /// <summary>
     /// <para>A Boolean value that determines whether to apply a cooldown period. Is true if a cooldown period is enabled.</para>

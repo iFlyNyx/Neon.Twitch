@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.Channels.Models;
 
-public class FollowedChannel
+internal class FollowedChannel
 {
     /// <summary>
     /// <para>An ID that uniquely identifies the broadcaster that this user is following.</para>

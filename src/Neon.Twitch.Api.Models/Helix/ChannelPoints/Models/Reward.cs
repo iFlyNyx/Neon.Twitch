@@ -2,7 +2,7 @@
 
 namespace Neon.Twitch.Api.Models.Helix.ChannelPoints.Models;
 
-public class Reward
+internal class Reward
 {
     /// <summary>
     /// <para>The ID that uniquely identifies the redeemed reward.</para>

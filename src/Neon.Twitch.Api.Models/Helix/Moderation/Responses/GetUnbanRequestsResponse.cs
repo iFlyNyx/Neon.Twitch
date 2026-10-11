@@ -4,7 +4,7 @@ using Neon.Twitch.Api.Models.Helix.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Moderation.Responses;
 
-public class GetUnbanRequestsResponse
+internal class GetUnbanRequestsResponse
 {
     /// <summary>
     /// <para>A list that contains information about the channel's unban requests.</para>

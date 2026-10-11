@@ -1,14 +1,15 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Enums.Shared;
 
 namespace Neon.Twitch.Api.Models.Helix.Search.Models;
 
-public class ChannelSearch
+internal class ChannelSearch
 {
     /// <summary>
     /// <para>The ISO 639-1 two-letter language code of the language used by the broadcaster. For example, en for English. If the broadcaster uses a language not in the list of <see href="https://help.twitch.tv/s/article/languages-on-twitch#streamlang">supported stream languages</see>, the value is other.</para>
     /// </summary>
     [JsonPropertyName("broadcaster_language")]
-    public string? BroadcasterLanguage { get; init; }
+    public Languages? BroadcasterLanguage { get; init; }
     /// <summary>
     /// <para>The broadcaster’s login name.</para>
     /// </summary>

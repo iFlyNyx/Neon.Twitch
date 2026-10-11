@@ -1,8 +1,9 @@
 ﻿using System.Text.Json.Serialization;
+using Neon.Twitch.Api.Models.Helix.HypeTrain.Enums;
 
 namespace Neon.Twitch.Api.Models.Helix.HypeTrain.Models;
 
-public class HypeTrainCurrent
+internal class HypeTrainCurrent
 {
     /// <summary>
     /// <para>The Hype Train ID.</para>
@@ -70,7 +71,7 @@ public class HypeTrainCurrent
     /// <para><see href="https://help.twitch.tv/s/article/hype-train-guide#special">Learn More</see></para>
     /// </summary>
     [JsonPropertyName("type")]
-    public string? Type { get; init; }
+    public HypeTrainType? Type { get; init; }
     /// <summary>
     /// <para>Indicates if the Hype Train is shared. When true, shared_train_participants will contain the list of broadcasters the train is shared with.</para>
     /// </summary>
